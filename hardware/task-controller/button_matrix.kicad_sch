@@ -1,0 +1,9738 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a606fd04-b960-4a2e-bf13-e74895eafaa3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 157.48 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0489e7d2-bdfc-4e4c-94e8-e98d485f20ec")
+	)
+	(junction
+		(at 124.46 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0715b7ee-10b7-47ee-ab5a-70308c8f6306")
+	)
+	(junction
+		(at 125.73 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "092c1edf-f062-4da0-89f7-5432ce64f07c")
+	)
+	(junction
+		(at 109.22 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff60c0f-4a8f-43bd-a06f-ad11892fe42d")
+	)
+	(junction
+		(at 140.97 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f4e11e-5bf8-4a21-adec-d7a1b697be81")
+	)
+	(junction
+		(at 107.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130e68c3-498c-498a-a425-e19ac9b6279e")
+	)
+	(junction
+		(at 157.48 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13857e27-bf35-49c0-bddc-30f48b5e9a3c")
+	)
+	(junction
+		(at 92.71 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15632010-f429-4220-bd0e-1af4c669b6f2")
+	)
+	(junction
+		(at 124.46 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1873c113-31c9-4556-b430-2d8bb36eaae4")
+	)
+	(junction
+		(at 90.17 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5ece65-2ae8-4377-afc1-3dc9bb363ee4")
+	)
+	(junction
+		(at 73.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf3f0c5-81f4-4627-afee-4469210afa6b")
+	)
+	(junction
+		(at 73.66 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21f5ffdd-78f6-468d-bc65-f39a0abdc400")
+	)
+	(junction
+		(at 109.22 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "249190f8-7552-440e-ba2c-2d19e7d935f8")
+	)
+	(junction
+		(at 90.17 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25efc348-0ae3-4ff8-b4b4-5ff491a9ddba")
+	)
+	(junction
+		(at 74.93 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "266390d5-c195-4693-95ad-bb0238f53274")
+	)
+	(junction
+		(at 142.24 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c955d9e-54b7-4f26-a141-2028df54aa52")
+	)
+	(junction
+		(at 140.97 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e1703b6-b34f-4e2a-aed8-a6275d586466")
+	)
+	(junction
+		(at 140.97 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a54757-318e-4b87-a1be-89c92240cd57")
+	)
+	(junction
+		(at 55.88 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30d0b6cc-7b33-4956-9dc3-98f1d7ba620b")
+	)
+	(junction
+		(at 125.73 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32cdc44b-357b-4ac2-b174-c68b72e684fd")
+	)
+	(junction
+		(at 142.24 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3671f98d-1d53-4ebd-b62c-b2c80d7559fa")
+	)
+	(junction
+		(at 124.46 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38b49904-7d80-46be-a78f-726249dd3bfe")
+	)
+	(junction
+		(at 109.22 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38ffbe6c-b6bb-4dc5-ab76-2932f9d465f1")
+	)
+	(junction
+		(at 222.25 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390be60d-0d67-479e-aecc-fac1f4f7cc2f")
+	)
+	(junction
+		(at 107.95 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a71f476-eed9-4cfa-9515-624c18a477ae")
+	)
+	(junction
+		(at 125.73 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c1c8c6d-6e8d-495c-b730-3a0f4f8ce70f")
+	)
+	(junction
+		(at 74.93 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ca9957c-95e2-4d16-a372-e25f38ad5bef")
+	)
+	(junction
+		(at 55.88 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eee18ae-783d-4f15-a5ef-eca77f6df37a")
+	)
+	(junction
+		(at 55.88 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "441af726-b006-43ac-a667-d3483fae0281")
+	)
+	(junction
+		(at 74.93 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "441b091a-bc54-49db-bc3c-4252240956d1")
+	)
+	(junction
+		(at 157.48 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46f6dc8d-13ee-45e1-a5a3-366594914fcb")
+	)
+	(junction
+		(at 157.48 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49bb84f6-b0c3-47ed-8c47-de57a7cdfc80")
+	)
+	(junction
+		(at 222.25 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bca05aa-8589-4623-8d13-cdf56bd7c08c")
+	)
+	(junction
+		(at 109.22 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550487c9-99d0-4c30-b31f-a34c8ff08447")
+	)
+	(junction
+		(at 74.93 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ced1d90-9bff-41f5-b07a-2abeaa9d7867")
+	)
+	(junction
+		(at 109.22 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6403ca20-9636-4d22-867d-b05c8a259123")
+	)
+	(junction
+		(at 73.66 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6469d9d7-6ddc-4c1d-8051-4bcce11b8d3b")
+	)
+	(junction
+		(at 73.66 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64d17a33-887c-4581-877f-aac2cbabe0eb")
+	)
+	(junction
+		(at 73.66 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66743a55-7893-4dab-9ab8-1110e7202258")
+	)
+	(junction
+		(at 140.97 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674eb10d-f471-4835-8972-65b5e5bdb574")
+	)
+	(junction
+		(at 107.95 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68253d56-4f37-47c3-a217-855fcc1e02b8")
+	)
+	(junction
+		(at 107.95 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6925d89d-5995-4187-8e44-96576332db53")
+	)
+	(junction
+		(at 58.42 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b363d9f-b72d-4ce1-83ea-f2e021620923")
+	)
+	(junction
+		(at 58.42 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7dfefd-e222-4f93-8536-43a7f31822d8")
+	)
+	(junction
+		(at 90.17 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2c43cd-4cf3-429a-b927-c8b83532857b")
+	)
+	(junction
+		(at 157.48 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70aaab36-66b6-4bbc-b43d-29ae94c03a96")
+	)
+	(junction
+		(at 90.17 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "759984ff-d308-4fd1-926e-759b1f512c0c")
+	)
+	(junction
+		(at 109.22 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7783ed46-b79d-4adc-803a-9ef71994f923")
+	)
+	(junction
+		(at 74.93 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77b3816f-0f91-463a-a8eb-dfec47a27012")
+	)
+	(junction
+		(at 92.71 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77ffdc0e-cf21-4deb-ae2b-a34dc0e143cf")
+	)
+	(junction
+		(at 107.95 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "781c15f9-efdb-45ac-a141-78bfd75ea1bb")
+	)
+	(junction
+		(at 142.24 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a58f4fb-619d-4dd0-8a84-32c8eaebc81c")
+	)
+	(junction
+		(at 124.46 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fbd4f68-eae5-4102-b1e1-d0190f85a1c7")
+	)
+	(junction
+		(at 74.93 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "835961e1-3f86-4ad7-b5b2-121c74fff7e0")
+	)
+	(junction
+		(at 107.95 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84676fd2-f040-4387-885c-107c4eda733b")
+	)
+	(junction
+		(at 90.17 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "875c1060-644b-4502-9a23-7900098b8673")
+	)
+	(junction
+		(at 92.71 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d96dbc5-2114-48e9-b4ec-fe91a3778d94")
+	)
+	(junction
+		(at 125.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c9d4c3-8c75-49df-86c4-ed068142f078")
+	)
+	(junction
+		(at 125.73 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9625e590-72be-4812-a6fb-f954d7b5a6a9")
+	)
+	(junction
+		(at 92.71 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b1048ad-0734-4303-a611-8ee75870d565")
+	)
+	(junction
+		(at 222.25 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b673888-a832-47e5-89f3-b1de67342410")
+	)
+	(junction
+		(at 90.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c16b51d-c3e8-4b95-b029-b20712697f55")
+	)
+	(junction
+		(at 142.24 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cfeb865-8630-4d94-8af3-70dc574dc8ed")
+	)
+	(junction
+		(at 140.97 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fb21806-fd5a-47f3-92bc-3711e24e412b")
+	)
+	(junction
+		(at 124.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4dbf93a-9a12-472e-a9e4-72c776736572")
+	)
+	(junction
+		(at 124.46 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a844e888-834a-47cb-b4e4-a1f014fdc9a1")
+	)
+	(junction
+		(at 107.95 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a844efcb-3cf5-45d7-8fb5-d87690a7f6cf")
+	)
+	(junction
+		(at 157.48 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af104ca6-8c43-470b-bb95-e12339f394be")
+	)
+	(junction
+		(at 58.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba918346-0aee-404b-a2ee-6748c32e8a3e")
+	)
+	(junction
+		(at 92.71 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc16899c-9753-4412-8598-c9a78ebdc41c")
+	)
+	(junction
+		(at 109.22 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc789483-c421-4c70-a1cf-d10210f8554b")
+	)
+	(junction
+		(at 222.25 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd0b366e-ce54-4174-b8bc-bea38acf83ba")
+	)
+	(junction
+		(at 124.46 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd0b7830-a022-4a72-a6b3-55f13f9c7d2b")
+	)
+	(junction
+		(at 55.88 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c14922d5-95ad-4014-875d-d04c90312714")
+	)
+	(junction
+		(at 55.88 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c5fdb5-a02e-4a53-bb9d-2324ad1a9841")
+	)
+	(junction
+		(at 58.42 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c23406c6-170e-46ac-91c8-821a3a7c1978")
+	)
+	(junction
+		(at 58.42 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c46d52bf-04c3-4c28-9530-b6f4c818943b")
+	)
+	(junction
+		(at 157.48 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc84568a-970e-4d37-b7ec-01aa5be429da")
+	)
+	(junction
+		(at 58.42 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccf5cbaf-f6a8-48b8-9e21-e98560d1f741")
+	)
+	(junction
+		(at 140.97 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf651a28-c87f-4ab9-ba96-6ab69555121b")
+	)
+	(junction
+		(at 142.24 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d609f4e0-427b-411e-bd73-812a39ebdf0e")
+	)
+	(junction
+		(at 55.88 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8caadb9-7b4a-44ed-97f3-834dff69aa6e")
+	)
+	(junction
+		(at 92.71 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dae85061-afa1-4509-9e10-f448ee31a012")
+	)
+	(junction
+		(at 142.24 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf4ff1e-8e13-4de2-b638-4f8e4671f7a9")
+	)
+	(junction
+		(at 140.97 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e034331d-78e0-4f04-8a13-c2b289c3cba0")
+	)
+	(junction
+		(at 90.17 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4053329-edee-49df-a065-f8d6a289be46")
+	)
+	(junction
+		(at 73.66 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e944fca7-4e2c-4f16-bb1c-f4967a25f6b7")
+	)
+	(junction
+		(at 58.42 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed54e153-fcd5-4ba8-b34b-876c13bda37e")
+	)
+	(junction
+		(at 142.24 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee813433-87ed-4007-9861-8d026a6c5163")
+	)
+	(junction
+		(at 125.73 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1d35640-d01c-4977-b6ab-ee9fe1fc8f18")
+	)
+	(junction
+		(at 74.93 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c63d09-0b17-4448-8afd-0b64f5ab356d")
+	)
+	(junction
+		(at 222.25 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f30fd03f-68a1-4bb6-9dcc-3d33e52041fe")
+	)
+	(junction
+		(at 92.71 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6148009-71a3-44fd-b0de-368ebcabf4b7")
+	)
+	(junction
+		(at 125.73 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9b0f36f-9299-4bd4-a715-015004b4d7a2")
+	)
+	(junction
+		(at 222.25 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fae4c4f1-976e-4985-bd89-a84fdae78a0e")
+	)
+	(junction
+		(at 73.66 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe585a7c-430b-426b-8c44-220d25350b81")
+	)
+	(wire
+		(pts
+			(xy 140.97 38.1) (xy 140.97 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00919561-b66a-4306-a5cd-b878417a2c09")
+	)
+	(wire
+		(pts
+			(xy 92.71 113.03) (xy 74.93 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b041be-fcb2-4986-98fa-71d294cd02d0")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 73.66 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00be7d5a-d73a-45f2-9381-447b4d5b4eb8")
+	)
+	(wire
+		(pts
+			(xy 92.71 24.13) (xy 92.71 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e8103b-1aad-4153-86ae-64af56f115e4")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015d7ffc-063d-41cb-b9cf-94217948b95d")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0273222d-a243-4013-950d-d42ce591f847")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042ecd59-da49-4ec5-8a66-624bca082304")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0494dd19-494e-45db-bf0a-78d3b5b2c30f")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f2583e-0b69-4160-b882-9cc60dbb23c6")
+	)
+	(wire
+		(pts
+			(xy 142.24 27.94) (xy 125.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0503051d-230a-40ff-bfd4-db77ceae1599")
+	)
+	(wire
+		(pts
+			(xy 222.25 128.27) (xy 222.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05111965-ce00-4bb2-9938-39131dc152c6")
+	)
+	(wire
+		(pts
+			(xy 92.71 66.04) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054fedeb-2d4f-476b-be8f-11c6707aff7b")
+	)
+	(wire
+		(pts
+			(xy 40.64 69.85) (xy 40.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c15ffc-fb57-4674-b8cf-4b32a5725ade")
+	)
+	(wire
+		(pts
+			(xy 76.2 24.13) (xy 74.93 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098d0fe5-c5a9-470a-8f09-de330856f219")
+	)
+	(wire
+		(pts
+			(xy 90.17 24.13) (xy 86.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b821d1a-c264-4b02-a48f-6cc5f732b485")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c53d949-2eb0-47c0-af4f-fffd2ed22df3")
+	)
+	(wire
+		(pts
+			(xy 143.51 24.13) (xy 142.24 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca7d593-e99e-485f-8b2e-1aa677f10bed")
+	)
+	(wire
+		(pts
+			(xy 125.73 69.85) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb2269d-5617-4e88-8101-1d89eed7151e")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 189.23 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcf6bb7-ece3-4598-a151-d07490f6b616")
+	)
+	(wire
+		(pts
+			(xy 140.97 107.95) (xy 140.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de7ef94-f276-4f63-8100-adbc242aa754")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e87dcd4-d0c5-4613-8acd-ef11471d6632")
+	)
+	(wire
+		(pts
+			(xy 162.56 113.03) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eade106-5e2e-4b4b-8dc2-73c75b76eb04")
+	)
+	(wire
+		(pts
+			(xy 143.51 107.95) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe8ece0-8acc-4d00-87d2-5e0409304797")
+	)
+	(wire
+		(pts
+			(xy 125.73 27.94) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d44bd7-2c38-465b-b4dc-758e334898cb")
+	)
+	(wire
+		(pts
+			(xy 58.42 24.13) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e3ba11-76c9-45d0-a1dc-3629d553ffbf")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 142.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14aeab75-c984-4899-8d3a-56b2670cb007")
+	)
+	(wire
+		(pts
+			(xy 125.73 38.1) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c7b836-1094-4632-a1e9-56eeea5d79cd")
+	)
+	(wire
+		(pts
+			(xy 109.22 80.01) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1640eaa4-e4dc-4afc-acdd-1a7d49c0fdb6")
+	)
+	(wire
+		(pts
+			(xy 107.95 80.01) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e9bed8-6c18-4ac1-99f5-885959afc0e6")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17557581-f3a7-4ad3-ba15-e0640b0bfb40")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17931e67-618d-4c07-b4fb-902e86020fbb")
+	)
+	(wire
+		(pts
+			(xy 74.93 80.01) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18002a03-8319-4889-be04-b57ce2b32fba")
+	)
+	(wire
+		(pts
+			(xy 59.69 52.07) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cb689f-9795-4949-a202-fd22f2d21527")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a569c37-e49e-4bfc-9ac5-08397cd77db5")
+	)
+	(wire
+		(pts
+			(xy 40.64 99.06) (xy 40.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8985bc-9f20-4058-87fd-423fea315b87")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfbcbfb-462d-4562-b4a5-afbe5123ca2d")
+	)
+	(wire
+		(pts
+			(xy 53.34 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1a8b0c-6323-4917-b7b9-b558ec43f3a9")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c23964e-d9e8-4621-ba54-60dda9d74172")
+	)
+	(wire
+		(pts
+			(xy 110.49 24.13) (xy 109.22 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e885302-8947-41d3-a3c8-7002e5468361")
+	)
+	(wire
+		(pts
+			(xy 127 38.1) (xy 125.73 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6ef1e4-4ef6-4d12-81c2-d40718018cdb")
+	)
+	(wire
+		(pts
+			(xy 153.67 107.95) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d362cb-3f34-4531-ba37-5078e19f0145")
+	)
+	(wire
+		(pts
+			(xy 40.64 52.07) (xy 43.18 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255d308a-bdae-4fa3-9880-23149d5bb642")
+	)
+	(wire
+		(pts
+			(xy 109.22 24.13) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ff5278-c6bc-47ff-9153-a2b42ebaeba0")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8612d5-bdcc-483c-b4a5-0918f81be698")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab3477c-002d-47c1-bc77-6f2b56975512")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daa046f-c3dd-459e-a35f-ce5d674ad015")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3c2120-9a92-4bb7-8f01-471879ae38e2")
+	)
+	(wire
+		(pts
+			(xy 222.25 132.08) (xy 222.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314e4101-fa4c-41c2-ac0b-1356975ddf6c")
+	)
+	(wire
+		(pts
+			(xy 163.83 83.82) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3182b8ef-ce80-49e6-bcc7-96b43f5c3221")
+	)
+	(wire
+		(pts
+			(xy 127 66.04) (xy 125.73 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3278c9d7-3d58-406d-a2ce-786a4a555597")
+	)
+	(wire
+		(pts
+			(xy 125.73 66.04) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a816ae-e232-41e8-979b-af1f0a4ffa10")
+	)
+	(wire
+		(pts
+			(xy 109.22 27.94) (xy 92.71 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34eae8f1-a479-4cd3-97f6-989819c36fa2")
+	)
+	(wire
+		(pts
+			(xy 140.97 24.13) (xy 137.16 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3522ccc9-d2db-462a-b4b3-6411451b52d4")
+	)
+	(wire
+		(pts
+			(xy 40.64 107.95) (xy 43.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dfdc36-8ee8-4eed-a861-40e01347fdf6")
+	)
+	(wire
+		(pts
+			(xy 142.24 24.13) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3744e0f4-0557-4a5f-8abd-c00665c8b4b5")
+	)
+	(wire
+		(pts
+			(xy 109.22 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a04b41c-9f96-4dca-9beb-8c8a5281b25c")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.82) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0ad70f-dca7-4389-94c2-e802c64f9cae")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3e653e-f1f0-46b6-b3a2-8d6b1aa0600f")
+	)
+	(wire
+		(pts
+			(xy 55.88 116.84) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a625ecd-2125-4285-a4ed-707a962f6785")
+	)
+	(wire
+		(pts
+			(xy 55.88 80.01) (xy 55.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae68dce-496c-45fb-b802-2f986fc6f210")
+	)
+	(wire
+		(pts
+			(xy 107.95 52.07) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b68884a-7d5c-413d-8d00-5d2c425fc5b1")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c43b583-1575-47cf-a43b-2e84b3d586bf")
+	)
+	(wire
+		(pts
+			(xy 143.51 52.07) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5e246c-981c-4afa-810e-18e4a4c7a754")
+	)
+	(wire
+		(pts
+			(xy 153.67 66.04) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dab6ef1-efe6-4236-998c-ccc9d5246692")
+	)
+	(wire
+		(pts
+			(xy 186.69 120.65) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de6dfde-409c-4768-bd96-fc7d3196a9ac")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2f0ba4-ada0-4fc1-8bc6-6a40b68a9e89")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e762a5c-cbe5-4ecb-abd6-c8a46d031ab3")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2d8ff2-ca51-4720-8f25-d17688272fe5")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc817b0-c41b-4f14-b71d-01bb7ccd025f")
+	)
+	(wire
+		(pts
+			(xy 74.93 107.95) (xy 74.93 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40481938-623b-48db-85e2-57e8801aba50")
+	)
+	(wire
+		(pts
+			(xy 140.97 52.07) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408c5c39-39be-4fee-bde7-3ad00cbf2752")
+	)
+	(wire
+		(pts
+			(xy 69.85 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4115455d-65cd-4d8a-9c2b-dea271336d1f")
+	)
+	(wire
+		(pts
+			(xy 73.66 52.07) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4168dd89-ad10-47fc-ade2-e2e1c4191ff3")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 58.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d5bdd4-339f-4068-b5c4-9a542c55faf2")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 107.95 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46419d52-d21b-424e-8383-d68d95227dc1")
+	)
+	(wire
+		(pts
+			(xy 53.34 93.98) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4795b7ea-650e-4f81-ae3e-8f37a3edba50")
+	)
+	(wire
+		(pts
+			(xy 157.48 107.95) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486ab188-ce6c-4210-95d3-42301c888a44")
+	)
+	(wire
+		(pts
+			(xy 153.67 52.07) (xy 157.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adcb105-9e98-4c55-8256-51647cf9b373")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b41ed50-7787-45e7-90e7-32a8ce6acef5")
+	)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 73.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8be788-b6c0-4bce-a620-fbf41926ef8b")
+	)
+	(wire
+		(pts
+			(xy 40.64 83.82) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8e1ab6-12a9-480a-b57c-e45dc926072d")
+	)
+	(wire
+		(pts
+			(xy 58.42 55.88) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9925d9-0702-44e8-8a93-ccf006d45ca1")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9fb8e5-afb6-4ade-9fdb-234ef1445568")
+	)
+	(wire
+		(pts
+			(xy 107.95 107.95) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f313ff1-a4ad-4144-a137-6cc10554a839")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 90.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f764ac4-ef7b-4d35-b6e7-dd5f1012c197")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50dd8dc3-026c-4eee-b1ab-dfe60d70de74")
+	)
+	(wire
+		(pts
+			(xy 53.34 107.95) (xy 55.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b56cb0-5a10-4134-ad64-c6067c3b2685")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 90.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e552d9-8a8f-4eca-ad1e-af6fd1fbb714")
+	)
+	(wire
+		(pts
+			(xy 127 24.13) (xy 125.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5494f484-39da-4e6a-b2d9-72dff79e0d2d")
+	)
+	(wire
+		(pts
+			(xy 125.73 93.98) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5499faa5-6555-4ae8-be9e-a99e5917570f")
+	)
+	(wire
+		(pts
+			(xy 86.36 52.07) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554508d5-2042-4651-92c4-3dc3ceadf8df")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570c132e-c962-48b9-8948-9db93682951d")
+	)
+	(wire
+		(pts
+			(xy 69.85 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575531c6-2f1d-4909-9803-572089b25dbf")
+	)
+	(wire
+		(pts
+			(xy 157.48 139.7) (xy 204.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c1fa54-f30b-4a66-aea9-403a6b0575d2")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59055c7d-4918-4ecf-ad69-8356e86cc574")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0a044a-886d-4d4a-83c1-280e2ded07ab")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 140.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da49758-e2a3-42f2-83b4-3ee724354ba3")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 184.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e54d64d-01bb-462a-84e3-85054eff017b")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 40.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f62f348-9050-4b7c-8328-e82ad66ca9a5")
+	)
+	(wire
+		(pts
+			(xy 163.83 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c119ba-bc14-46d6-89c5-68c7af701b24")
+	)
+	(wire
+		(pts
+			(xy 107.95 24.13) (xy 104.14 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62217ac1-316f-49c5-983b-ea7238378488")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 92.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640ea9a9-8569-4039-b61b-d420300e29bb")
+	)
+	(wire
+		(pts
+			(xy 157.48 107.95) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640ece09-2b6f-4d78-b115-c3587bc1f049")
+	)
+	(wire
+		(pts
+			(xy 59.69 80.01) (xy 58.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6768f832-f71a-40ba-af53-97d95a84528c")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6799d450-bf90-42c1-8f02-c015f83ee0a8")
+	)
+	(wire
+		(pts
+			(xy 109.22 52.07) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6813a430-9092-4948-ae7e-13263470976e")
+	)
+	(wire
+		(pts
+			(xy 107.95 107.95) (xy 107.95 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69362fd2-35a5-41e3-8898-72268bd4e2ad")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a5a95a-9196-4fbb-a27d-5ea85903d20f")
+	)
+	(wire
+		(pts
+			(xy 201.93 132.08) (xy 222.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8e8af3-5e43-4d01-88ea-68beb1004f43")
+	)
+	(wire
+		(pts
+			(xy 40.64 38.1) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c935e62-5d5c-4df4-8f5c-980567057d45")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d20226c-6b74-4fab-aaed-ec9ac8628234")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 90.17 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9a7178-0f84-4420-963f-34a2e1f2e2d1")
+	)
+	(wire
+		(pts
+			(xy 120.65 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e61a095-62eb-4ef4-83e7-1af080b243a8")
+	)
+	(wire
+		(pts
+			(xy 69.85 66.04) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7c4fb1-39b8-4fa5-a87e-94f785623d23")
+	)
+	(wire
+		(pts
+			(xy 74.93 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd55da4-dd1c-423e-bc6c-2ebe57015556")
+	)
+	(wire
+		(pts
+			(xy 222.25 120.65) (xy 222.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd61754-9cf9-411d-858d-3047e27118cb")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.07) (xy 73.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705210fc-45f9-4b37-a371-fbc427af5e4c")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 55.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ddbd81-be0d-45a9-90ff-0b3f1709a231")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 109.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cd121d-45ec-4aac-9fea-12124152656d")
+	)
+	(wire
+		(pts
+			(xy 90.17 80.01) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e228cd-927e-42d1-b162-63aa94419065")
+	)
+	(wire
+		(pts
+			(xy 74.93 24.13) (xy 74.93 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73365c65-b033-4243-97c8-b7efbc1ba478")
+	)
+	(wire
+		(pts
+			(xy 40.64 93.98) (xy 43.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738445f1-0e44-40e4-896a-6e0be273719b")
+	)
+	(wire
+		(pts
+			(xy 181.61 116.84) (xy 222.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742cdda8-64dc-4fe9-a6ee-395c5e127a9c")
+	)
+	(wire
+		(pts
+			(xy 163.83 27.94) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d59d5b-cf23-4895-8d10-527c48a351a4")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 74.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a34a6a-bba1-4b13-b1bd-f03b643ac596")
+	)
+	(wire
+		(pts
+			(xy 40.64 80.01) (xy 43.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ec57fa-7b1b-4c0a-b0d1-c0be9db02519")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 124.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790c3cc2-d6df-48f8-90a6-b9cecd8dd3e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7967aecb-c721-4f7f-a6c2-c7dc3c012b7a")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de99ed2-ab58-46b7-b670-23b6a9d408f9")
+	)
+	(wire
+		(pts
+			(xy 76.2 80.01) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e545c15-6992-4b79-aa32-6d2ae24de34b")
+	)
+	(wire
+		(pts
+			(xy 142.24 52.07) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800d0f56-b639-4abe-848a-b0d84a342280")
+	)
+	(wire
+		(pts
+			(xy 53.34 80.01) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e7800d-189c-4954-820e-904bd8d85dbe")
+	)
+	(wire
+		(pts
+			(xy 124.46 24.13) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8173bdf1-3bc1-47e3-807c-aa1111c5d684")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fd851a-5eb6-4643-a66a-ab6e7488cfb1")
+	)
+	(wire
+		(pts
+			(xy 142.24 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82318138-1b0d-4c45-b2df-d0936feeeba7")
+	)
+	(wire
+		(pts
+			(xy 93.98 66.04) (xy 92.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8245decc-7781-4f63-be07-0a09cb5dd3b2")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c73abc-f399-4e61-ba6b-e9e16145aa53")
+	)
+	(wire
+		(pts
+			(xy 127 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d150dc-6ff1-483c-ad9c-cf422c29d45c")
+	)
+	(wire
+		(pts
+			(xy 140.97 135.89) (xy 199.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851a7ec7-dda8-4160-b043-758faa64a5e9")
+	)
+	(wire
+		(pts
+			(xy 125.73 99.06) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8528e063-1644-461d-a477-9ed900648774")
+	)
+	(wire
+		(pts
+			(xy 207.01 135.89) (xy 222.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85991182-00af-489c-bbb6-a07807e4eb6e")
+	)
+	(wire
+		(pts
+			(xy 55.88 66.04) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b69e48-4cc6-44e3-91b6-b8bf430294d2")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c80785-a51e-40b5-b056-6e5fb095b716")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887c325b-d48d-4520-a34b-09356147d2ca")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89150d53-eede-4daf-9476-ca4bc505c6e5")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.1) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8919dd38-f33c-4dc7-b97f-31dd43d3d098")
+	)
+	(wire
+		(pts
+			(xy 55.88 93.98) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a30fcca-bc03-4bdc-9c02-cb1c3f72487e")
+	)
+	(wire
+		(pts
+			(xy 73.66 93.98) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6ce735-7c64-42ff-bf78-1cacd418bbca")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.08) (xy 124.46 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc762b6-bd3e-4479-bb73-87d57dd137ef")
+	)
+	(wire
+		(pts
+			(xy 93.98 38.1) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c62bbf3-90a7-4dc8-9c6f-2b5cef1c0ec8")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf7d7cc-89e3-4ba2-b972-174d8018549c")
+	)
+	(wire
+		(pts
+			(xy 55.88 116.84) (xy 55.88 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e24f0a9-49b9-4702-92b2-b1124441743d")
+	)
+	(wire
+		(pts
+			(xy 55.88 107.95) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbc9516-1f7f-46eb-9d43-ffa0e13dde09")
+	)
+	(wire
+		(pts
+			(xy 110.49 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922465f1-f3e7-4e85-936e-721b594e849f")
+	)
+	(wire
+		(pts
+			(xy 109.22 38.1) (xy 109.22 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9318eb32-c48f-465e-8922-62c2283636c7")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93299f9d-41bc-4d5c-a8da-a7bfbb81b3b4")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93cca033-c182-45f3-956a-3bab789fb301")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94906016-e4d8-4977-b147-6062cf8ec003")
+	)
+	(wire
+		(pts
+			(xy 74.93 27.94) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964e43a7-c3a5-4414-a2f7-0c85918d3c7b")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9677bfde-ac3a-4ecf-867b-3711b8fc9e20")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 107.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976bf211-4216-4c71-ba16-57ff6825e4b2")
+	)
+	(wire
+		(pts
+			(xy 90.17 66.04) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9848fd27-aaf1-4df1-9b3e-4c0f4032cfcf")
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f57446-cc46-4e00-9c30-7b26a2655c01")
+	)
+	(wire
+		(pts
+			(xy 86.36 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b288c3-df5d-4d5e-a909-2000433c2fdb")
+	)
+	(wire
+		(pts
+			(xy 58.42 52.07) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8e898e-0d59-4107-b55e-dd10540f92cc")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebc7f7c-e0d7-4ee7-b9e7-c05510ead82a")
+	)
+	(wire
+		(pts
+			(xy 142.24 38.1) (xy 142.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f32e6fb-71d7-47ff-ba7d-1def5984390d")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1050ad7-e462-450c-be98-13dcdf77375d")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.65) (xy 179.07 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18f36b4-ad18-4445-99b3-b3c6e34a1556")
+	)
+	(wire
+		(pts
+			(xy 92.71 41.91) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18f88c2-ad90-4bc6-99b6-8a9c45e09d27")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 58.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a229c592-258e-4ea3-9925-ae6e5e8798cd")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4af6e54-80f7-42dc-a324-4b6943be7bc5")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50a00b9-8c15-492a-95bc-ad5771bff187")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50faf3c-bcc1-4132-a60a-b4f187b03281")
+	)
+	(wire
+		(pts
+			(xy 140.97 66.04) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f36106-ea8c-4d69-abfe-a5086a4175dc")
+	)
+	(wire
+		(pts
+			(xy 191.77 124.46) (xy 222.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71ac9dd-cc00-4699-817a-4adb1aaeb32e")
+	)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 58.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73ff563-089c-4588-8ed6-2e072177955c")
+	)
+	(wire
+		(pts
+			(xy 109.22 113.03) (xy 92.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a5e124-7036-469d-ad27-4074e7fef822")
+	)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 92.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acddfd01-19c8-4867-869f-5f55498b41c9")
+	)
+	(wire
+		(pts
+			(xy 93.98 24.13) (xy 92.71 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe26465-7f05-453f-860a-806b04a07631")
+	)
+	(wire
+		(pts
+			(xy 110.49 38.1) (xy 109.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b028cb-ec1d-441e-ad73-6e8a983f9623")
+	)
+	(wire
+		(pts
+			(xy 212.09 139.7) (xy 222.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f00d21-b8ec-49c2-bf44-88048d6a953b")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f97498-803c-41fa-b3c9-0e6d761c748e")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d5624e-47ab-47ae-957a-ca07bffc2099")
+	)
+	(wire
+		(pts
+			(xy 137.16 52.07) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4737306-3863-457b-bfca-76976e95569f")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50b83e4-ea24-4feb-a935-f122fe313939")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58197b1-7355-4456-b0f9-c75f3f009d60")
+	)
+	(wire
+		(pts
+			(xy 222.25 135.89) (xy 222.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5da2a60-8277-4381-8dff-db32c06a48f0")
+	)
+	(wire
+		(pts
+			(xy 74.93 66.04) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c08131-e349-4397-9a85-5095bf18feaf")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 40.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f90b87-411b-4af7-a300-41d78e2037e8")
+	)
+	(wire
+		(pts
+			(xy 73.66 24.13) (xy 69.85 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8109322-b2f0-4360-a0f1-9fd0370b953c")
+	)
+	(wire
+		(pts
+			(xy 120.65 24.13) (xy 124.46 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8edbdbd-4349-4276-8d0b-b2e89242fc4d")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ee830c-0c37-40b0-b27d-2538566c814a")
+	)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 73.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba063e46-2759-4c29-a524-9144b8166e65")
+	)
+	(wire
+		(pts
+			(xy 40.64 27.94) (xy 40.64 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba56b0f6-7240-44ad-a1d1-2ab2f095a295")
+	)
+	(wire
+		(pts
+			(xy 153.67 24.13) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca8e0f0-a0c9-4557-af60-82bbada7db39")
+	)
+	(wire
+		(pts
+			(xy 110.49 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd72c641-77e9-4edc-bc99-e084566a811d")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befdf504-0ea9-4ce1-b2ad-b4c035f45c60")
+	)
+	(wire
+		(pts
+			(xy 59.69 24.13) (xy 58.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2ff0d9-b825-48dd-9361-38d3aae84e19")
+	)
+	(wire
+		(pts
+			(xy 86.36 107.95) (xy 90.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc06e29-50ee-4cb8-888f-318ea51d6138")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcfe072-4f14-495b-ab42-bc1c3edeb412")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 107.95 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0539631-7c5f-4445-ac3c-74bdc87497bc")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 73.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4333c89-032f-49ce-804a-c47d2d4295d4")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dfd865-4f2f-4407-a4a7-8930235817cb")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68c53b4-0e61-4a56-8c95-e6ec0f302bba")
+	)
+	(wire
+		(pts
+			(xy 40.64 66.04) (xy 43.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a8fdf3-ffe9-4757-b388-8fca7dc70b4b")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e33683-f915-42bd-ad1e-19f01843808c")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c792120e-4723-4310-b0f8-d95adbe71683")
+	)
+	(wire
+		(pts
+			(xy 124.46 38.1) (xy 124.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7edb93f-126c-439e-a4d3-a80ce9b3d665")
+	)
+	(wire
+		(pts
+			(xy 110.49 52.07) (xy 109.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8cbc63d-0ae7-48bc-974e-ace9ff1b66a3")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91d2e24-d116-44c7-a7e1-20487542541a")
+	)
+	(wire
+		(pts
+			(xy 222.25 139.7) (xy 222.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad0babe-3a63-402d-bdea-aff67a01daf7")
+	)
+	(wire
+		(pts
+			(xy 55.88 52.07) (xy 55.88 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb1e46c-050d-4d92-960e-f2697dcd45d2")
+	)
+	(wire
+		(pts
+			(xy 69.85 38.1) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce677ac5-82b8-4a3e-8447-9a3ac24b7cdb")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 40.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7fe1ab-228e-4b4e-a93f-9eea682db667")
+	)
+	(wire
+		(pts
+			(xy 196.85 128.27) (xy 222.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4e9f1e-2c40-4880-aec1-972b608ebfac")
+	)
+	(wire
+		(pts
+			(xy 104.14 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07bafbd-50e9-4b10-a53e-447fec8ee15c")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d116eabd-391c-4846-b52e-eb88e34cb618")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 58.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c05d53-d244-4616-bb24-386bde79de07")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20dd16a-aee8-45e3-931c-12caeda1d7ff")
+	)
+	(wire
+		(pts
+			(xy 55.88 107.95) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b446b4-fe7f-4057-ac56-405d04ead8a8")
+	)
+	(wire
+		(pts
+			(xy 58.42 41.91) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d549cb97-d9c2-4a55-9000-c1da8181caa0")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6dc9201-6004-48e5-a0a0-81542b1fed61")
+	)
+	(wire
+		(pts
+			(xy 40.64 113.03) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d861861a-0ec1-47e6-9900-a5962786a77f")
+	)
+	(wire
+		(pts
+			(xy 222.25 124.46) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90a2bd4-a429-412d-8029-5184ecce1e8f")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 109.22 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9492db2-4c05-4b51-8145-23527d9bbc1f")
+	)
+	(wire
+		(pts
+			(xy 74.93 52.07) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97ec9fd-a5f0-418b-af15-c9e5b161b1b6")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d986f5ff-bc2f-4d87-a9b8-093dc0cb0ee7")
+	)
+	(wire
+		(pts
+			(xy 104.14 52.07) (xy 107.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ca361c-1403-48af-8dde-5db68096710a")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabd4bf5-fa7c-4a6d-a192-8fbf46e4a03e")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 58.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb49a0c-67c4-45d7-8f0a-e244b0cf7bec")
+	)
+	(wire
+		(pts
+			(xy 76.2 52.07) (xy 74.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbb93f4-b4a0-4d62-a40c-291d36e5c128")
+	)
+	(wire
+		(pts
+			(xy 157.48 139.7) (xy 157.48 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2aa016-6115-4530-ba43-5af5833f9e20")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5e1474-5e20-4cb3-8784-1fcaff06bf1a")
+	)
+	(wire
+		(pts
+			(xy 222.25 116.84) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defb832e-be2f-41b6-81e7-62afcd8fcd05")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 40.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01010a8-7e64-4dca-9102-8cfb500026a2")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09470d0-e9a8-4d21-a6f0-e63e1dec36da")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c3a728-7ccc-476f-b6a6-1da4354b9c48")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11430df-ec3f-49d4-b156-3b21cd345891")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 40.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19af5c4-2ae9-48ac-9f61-be69257ec87f")
+	)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 73.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3557bc5-5132-4906-b667-9d663d8050b5")
+	)
+	(wire
+		(pts
+			(xy 59.69 66.04) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4510a3e-01b9-4185-8f4a-ccfe9150f149")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e780edb2-0f31-45c8-af0f-9b9e7baee98f")
+	)
+	(wire
+		(pts
+			(xy 157.48 66.04) (xy 157.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e848c3ac-f1f1-45b0-8a31-ec06a0d2a231")
+	)
+	(wire
+		(pts
+			(xy 40.64 24.13) (xy 43.18 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3f9736-33f3-4337-ab3a-b44df45d4b41")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4a6294-0090-4c4b-bfb4-704cac9f622e")
+	)
+	(wire
+		(pts
+			(xy 92.71 27.94) (xy 74.93 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9032e1-c091-40ac-ae22-5fced0988434")
+	)
+	(wire
+		(pts
+			(xy 124.46 52.07) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa5b9c2-2d12-4fb8-8d4e-f447cb015ae9")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.65) (xy 73.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead42220-5e77-4835-9139-7c11226976dc")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 40.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead4ec6f-d988-4cd3-a4bd-a6c477698e2b")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbeb5bd-5cfe-4706-9764-d2f592f94e38")
+	)
+	(wire
+		(pts
+			(xy 140.97 135.89) (xy 140.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee283a45-78ea-46f2-a85f-41a4a915ac3c")
+	)
+	(wire
+		(pts
+			(xy 125.73 24.13) (xy 125.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea4c155-f899-4cb5-9654-7e576ee9f9c8")
+	)
+	(wire
+		(pts
+			(xy 58.42 107.95) (xy 58.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06a3a0a-f259-4739-8e10-cb4a9555b825")
+	)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bf823a-ff9c-424a-9386-db17a39d6c1c")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10b21a3-05e1-406d-bb65-05f305a69e59")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 142.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35f18ef-34be-4ea3-bf02-0554a2a92e2e")
+	)
+	(wire
+		(pts
+			(xy 92.71 55.88) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f377d142-f8e6-49df-9b3f-f3b1a0bc3d76")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.08) (xy 194.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d2acf8-5716-49d6-9dec-51a5895900f2")
+	)
+	(wire
+		(pts
+			(xy 153.67 80.01) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47da787-94a9-4a73-8471-5a6ccbe88bdc")
+	)
+	(wire
+		(pts
+			(xy 74.93 69.85) (xy 58.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5039d99-e348-4c55-9b09-50eeacec8a4e")
+	)
+	(wire
+		(pts
+			(xy 125.73 107.95) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f627720d-d316-4856-8245-8e9002a54c32")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66b81ea-2347-4233-b4f5-9486dcd71104")
+	)
+	(wire
+		(pts
+			(xy 104.14 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72dd813-14ba-47ee-baee-27ce548f36e7")
+	)
+	(wire
+		(pts
+			(xy 140.97 107.95) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7880327-6b38-4785-bd3f-37f275b840aa")
+	)
+	(wire
+		(pts
+			(xy 142.24 41.91) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ac965b-1604-4ac6-b951-9dbf52a5d927")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc829275-16ee-42cf-8782-334257582047")
+	)
+	(wire
+		(pts
+			(xy 55.88 24.13) (xy 53.34 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd177531-eebb-4ead-83b4-7b9ee8da7bb6")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd82e74f-bd11-4b0b-bdbd-d088bc050dc6")
+	)
+	(wire
+		(pts
+			(xy 120.65 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde3a16b-3402-4bf1-be44-5c37d9c0dfb6")
+	)
+	(wire
+		(pts
+			(xy 74.93 113.03) (xy 58.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2581cf-80dd-475c-89b7-abe4820659df")
+	)
+	(text "Update button ref des to begin at 1\n and use as button number\n(map number to row and column in FW)"
+		(exclude_from_sim no)
+		(at 174.244 16.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a75e2df-b25c-456c-b684-9cbd137bea4e")
+	)
+	(text "Todo check if pullups are needed and that schematic is correct"
+		(exclude_from_sim no)
+		(at 242.316 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "611b3af8-8e66-4a58-adab-6039fa3a87c9")
+	)
+	(hierarchical_label "C5"
+		(shape input)
+		(at 124.46 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "061db476-94e3-40f0-b1ff-999547c62723")
+	)
+	(hierarchical_label "R4"
+		(shape output)
+		(at 163.83 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0652c166-15ab-40e7-8241-11b424b9f7e7")
+	)
+	(hierarchical_label "C7"
+		(shape input)
+		(at 157.48 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31ea3b2a-2064-40bc-a51f-38ff491c66da")
+	)
+	(hierarchical_label "R2"
+		(shape output)
+		(at 163.83 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f1b8814-01bb-4a07-bc00-8fe4b707737c")
+	)
+	(hierarchical_label "R7"
+		(shape output)
+		(at 162.56 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "440ead30-64cb-414d-8244-fdbcb6a44966")
+	)
+	(hierarchical_label "R1"
+		(shape output)
+		(at 163.83 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4deba6a8-68d2-402b-a0ca-40ba4c9ebb91")
+	)
+	(hierarchical_label "C1"
+		(shape input)
+		(at 55.88 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "520d9790-5d90-4cd0-bb58-900597de961e")
+	)
+	(hierarchical_label "R6"
+		(shape output)
+		(at 162.56 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1562134-7ae2-4ff3-baad-b46f4b315717")
+	)
+	(hierarchical_label "C2"
+		(shape input)
+		(at 73.66 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a38dffec-2320-471b-9c5f-03c06ba20c95")
+	)
+	(hierarchical_label "C3"
+		(shape input)
+		(at 90.17 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9407e67-d5a7-469c-a8ed-c336c0f995bf")
+	)
+	(hierarchical_label "C4"
+		(shape input)
+		(at 107.95 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5d92aeb-dd9a-4260-9c51-887f51472a15")
+	)
+	(hierarchical_label "R5"
+		(shape output)
+		(at 163.83 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1721942-107b-4eda-a720-460d25fa333b")
+	)
+	(hierarchical_label "R3"
+		(shape output)
+		(at 163.83 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2752a13-d7b2-4dd8-9f01-5ca66b4196f8")
+	)
+	(hierarchical_label "C6"
+		(shape input)
+		(at 140.97 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2860f79-966d-43e5-ad27-5ee051c28045")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04abfd5a-e8d5-4233-be83-ca58a21945e7")
+		(property "Reference" "SW31"
+			(at 81.28 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82ebc94c-5be9-47eb-89d2-e4b0484129c9")
+		)
+		(pin "2"
+			(uuid "7d1023e2-df35-4248-8a00-fba12336c39d")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04ae9286-9de4-43fd-b49f-262b9ee6eab1")
+		(property "Reference" "R24"
+			(at 177.8 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 177.8 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5919e4b9-9147-4733-8072-73fa3543110a")
+		)
+		(pin "2"
+			(uuid "4392447e-5dd7-4bc1-b4bd-839845c36547")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0577059e-7e5d-43ff-a86d-9c7a41c45d8e")
+		(property "Reference" "SW17"
+			(at 81.28 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bcc30b4-c555-4005-80b8-b09d3c443ba0")
+		)
+		(pin "2"
+			(uuid "05134874-c844-4c82-80cd-f46686d5c962")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.26 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1064e39f-a32b-4ba2-adfb-c8aa5d6cb630")
+		(property "Reference" "SW22"
+			(at 48.26 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbca807c-0f24-4edb-b591-3201e5b9abcc")
+		)
+		(pin "2"
+			(uuid "e1b4b791-d90d-4df4-a002-30c8249b7864")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18dbe901-9c90-4405-ae91-7fe6e0f46481")
+		(property "Reference" "SW11"
+			(at 99.06 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94da7a74-3097-4b49-9128-9399108d3dda")
+		)
+		(pin "2"
+			(uuid "5254be25-6611-4588-9620-1ccbcb1cb09c")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d59c936-bfc7-4bb9-a7c9-b5ac33621885")
+		(property "Reference" "SW20"
+			(at 132.08 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e60590f-3895-4322-9daf-293068a60930")
+		)
+		(pin "2"
+			(uuid "141367f4-5f9b-4f5f-929b-708975644062")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d909943-88b2-452b-87fb-87569aed0078")
+		(property "Reference" "SW23"
+			(at 64.77 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a6e9cd-7974-46b5-b82b-8c8d036396c6")
+		)
+		(pin "2"
+			(uuid "432443a3-870c-4b87-b2fc-daf27a85322a")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e5bd3cd-43e8-40dd-985c-478e4f80dc54")
+		(property "Reference" "SW44"
+			(at 64.77 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa54d3c-9f43-46b7-81c5-9237964fbead")
+		)
+		(pin "2"
+			(uuid "3cd340bc-2580-45c6-9fd4-9cc19558bc43")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e749e2f-0e2b-404a-8594-6b7a6f29a3e1")
+		(property "Reference" "SW16"
+			(at 64.77 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9caad504-da2c-46d3-8f84-9a5232ab054d")
+		)
+		(pin "2"
+			(uuid "053f06de-106d-4a05-a1bf-3d1f453df119")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 115.57 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24bcc56e-405d-4eeb-984a-8cd8297bb974")
+		(property "Reference" "SW40"
+			(at 115.57 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad31ef4-3eb8-434f-88e9-e5f99c06ab27")
+		)
+		(pin "2"
+			(uuid "d1a6ebfb-b5e0-4c50-97e7-c115471fee5b")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "250fc0b0-41c6-48aa-b3ae-dbdc5aba229b")
+		(property "Reference" "R27"
+			(at 193.04 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.04 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4def575a-d87a-4cbd-899b-1269b266ea6c")
+		)
+		(pin "2"
+			(uuid "5001e060-1777-429e-b29f-502a40d9b4a3")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26dffa18-8c86-45bc-be6d-661f199a4d7e")
+		(property "Reference" "SW3"
+			(at 81.28 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 81.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 81.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9004511-b5af-4371-9014-94d56ec47d48")
+		)
+		(pin "2"
+			(uuid "46e078f3-d653-46f7-95c1-4fc7ac2ea9ba")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27aeb25c-2394-4234-a4c3-f862594356b8")
+		(property "Reference" "R30"
+			(at 208.28 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 208.28 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 208.28 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab5d3f4-a238-47e7-9b02-65e665e8b58d")
+		)
+		(pin "2"
+			(uuid "55cd6fa8-ab1d-4aa2-a88b-1baabec0b14d")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cd9e177-811e-4bbb-a17f-02caefb256be")
+		(property "Reference" "SW30"
+			(at 64.77 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25593bac-387d-4430-98df-ad10a6c68704")
+		)
+		(pin "2"
+			(uuid "a080042d-a0b9-42d0-a54c-e3220c459d1c")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c9f625-9730-4c30-a3c4-48d0bea5e9b2")
+		(property "Reference" "SW39"
+			(at 99.06 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acefd99c-f4d8-4b4f-9a22-0126e243457a")
+		)
+		(pin "2"
+			(uuid "c07b5439-fa19-480c-b412-555c82eaa5bb")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dadd79c-403a-4707-abd7-74cf3fb402a1")
+		(property "Reference" "SW42"
+			(at 148.59 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "294fb1e1-6dcb-4cc4-998e-b7770a1c8632")
+		)
+		(pin "2"
+			(uuid "188244d6-fa01-45af-9fc5-40dcfc5d5a69")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.26 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fcff964-ee6a-4a89-9793-d4989ac832e0")
+		(property "Reference" "SW1"
+			(at 48.26 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "480c261f-0c96-4cf4-9c26-1276250c2177")
+		)
+		(pin "2"
+			(uuid "fe70a14a-39d4-45b7-8eeb-b3106fdd94b5")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "402a445e-ec8d-4f7a-b861-0676b3762391")
+		(property "Reference" "SW18"
+			(at 99.06 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d605dfde-b9b7-4dc7-b3c9-6d139a5cdc06")
+		)
+		(pin "2"
+			(uuid "6c0ba1d5-aeaa-4522-8250-ddc7b1950975")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.26 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "428b2454-3be0-4dbb-9115-13653668f445")
+		(property "Reference" "SW36"
+			(at 48.26 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 48.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 48.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a39427c5-b6f4-4527-a0cc-c9685f00083c")
+		)
+		(pin "2"
+			(uuid "5bbba0de-7aff-4097-bf73-5b497eee5265")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d09ce21-7406-4746-8610-4cfd4e994332")
+		(property "Reference" "R29"
+			(at 203.2 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 203.2 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 203.2 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8699e780-83d7-4b0f-a525-c97b0ffebaa3")
+		)
+		(pin "2"
+			(uuid "23d49dc7-f8b9-47e7-9deb-0d37b8c5307c")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d13bd99-4230-471c-9ec5-ee687274cd54")
+		(property "Reference" "SW46"
+			(at 99.06 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b02b79-2e57-4a59-bec0-bbb6fa0d74ff")
+		)
+		(pin "2"
+			(uuid "7fb5acd4-a196-45fe-b4af-eb8aeedfd6e8")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d1c45f2-c777-42ed-8efd-0b68b954903c")
+		(property "Reference" "SW14"
+			(at 148.59 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 148.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 148.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4806177-421b-400b-99dd-f985dca6de1b")
+		)
+		(pin "2"
+			(uuid "a2e1b8a3-4842-447a-9059-d00a35227a79")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 222.25 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508f8b5b-b58a-4350-accd-d3092eeb9380")
+		(property "Reference" "#PWR52"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c962936-cf5c-4922-afc8-eb886a869a78")
+		)
+		(instances
+			(project ""
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "#PWR52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "559516b4-b422-48a4-9a02-7d86368f2c00")
+		(property "Reference" "R25"
+			(at 182.88 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.88 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.88 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef933fb2-6940-4e7f-a84c-6847ede048a1")
+		)
+		(pin "2"
+			(uuid "24b97727-7e8b-4717-ba64-2cb21d915da0")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 115.57 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6749709f-fa8f-4203-b6de-d256fe39c2b7")
+		(property "Reference" "SW19"
+			(at 115.57 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68dbfcc0-ef26-4965-8869-11cf98fbd52c")
+		)
+		(pin "2"
+			(uuid "7da3c39d-40ff-4437-a7bc-5e7a2b37c337")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 115.57 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ceb3223-5734-4bcf-a43b-32156c5130f3")
+		(property "Reference" "SW5"
+			(at 115.57 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 115.57 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 115.57 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6de699b-e8cd-4919-85c5-6e006a8627b9")
+		)
+		(pin "2"
+			(uuid "3ab2e0e1-fb17-4e71-a744-1d8a961c1d49")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.26 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "705cdd75-b7a1-42d0-8b57-f06f7782b6f0")
+		(property "Reference" "SW29"
+			(at 48.26 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bc0df5b-8b36-4fb4-a9c3-fddf60aaa1d1")
+		)
+		(pin "2"
+			(uuid "94975e02-53a8-409d-84ba-eeaec4c3a18e")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "796cd9bb-273b-4fee-bdda-e1f6ca5ac6f1")
+		(property "Reference" "SW25"
+			(at 99.06 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98e29f1c-532c-45ee-82ce-21f9bf77396e")
+		)
+		(pin "2"
+			(uuid "6214b38f-7a73-4ff0-8c54-aef65f3ce037")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 115.57 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "883729be-39fa-40a8-985d-ffcce5d35aae")
+		(property "Reference" "SW33"
+			(at 115.57 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be2c934a-1989-40c4-a9e2-6b56b1da0681")
+		)
+		(pin "2"
+			(uuid "e2fbd4cd-c60c-48d0-835a-b7379207667b")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d82a77f-954c-461d-85b4-7589fa7bf1ff")
+		(property "Reference" "SW13"
+			(at 132.08 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afe37084-f204-4696-b385-5df831c343bc")
+		)
+		(pin "2"
+			(uuid "7285fc49-209a-4be8-997a-ce86271615fc")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 115.57 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ed82690-7cb2-4451-bfc1-aced07e46f24")
+		(property "Reference" "SW12"
+			(at 115.57 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00bbde6c-2dfd-49bf-aa7d-49309979c69a")
+		)
+		(pin "2"
+			(uuid "14f7b10c-ddd7-46fb-b892-a57e600b96d0")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98a50a87-736a-4e63-aabf-daf915f17845")
+		(property "Reference" "SW32"
+			(at 99.06 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fae9feb-af3c-4c62-9d48-05e21ec4ece4")
+		)
+		(pin "2"
+			(uuid "72101ecf-c9fb-41aa-82f7-e27af588d3d8")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cf56bf6-dfcb-4dbc-a791-de548342dc82")
+		(property "Reference" "SW6"
+			(at 132.08 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 132.08 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 132.08 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35bd57a2-bce8-4795-b3df-7d315b0349c0")
+		)
+		(pin "2"
+			(uuid "dc27ad33-f53f-4aae-a57b-3d5e0fe788bb")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9eafa004-b335-4846-8991-bcf5735edd58")
+		(property "Reference" "SW37"
+			(at 64.77 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88193307-aa3d-42c1-89d4-b49929ab7406")
+		)
+		(pin "2"
+			(uuid "64381996-cb41-4d0c-8a04-d5311953377c")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ed754b3-9494-4cd6-b1a4-e925199c1637")
+		(property "Reference" "SW21"
+			(at 148.59 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0e1e4da-9082-449c-bed7-d237886a591b")
+		)
+		(pin "2"
+			(uuid "07acb18f-14ca-45c2-ba6b-3fa74ade8b64")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f2359ff-4489-4859-aac6-70b300a0af64")
+		(property "Reference" "SW7"
+			(at 148.59 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 148.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 148.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 148.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 148.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 148.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 148.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feff1f17-8a5e-40ca-8463-e3f86bfe8b44")
+		)
+		(pin "2"
+			(uuid "94bc3604-1db0-46c8-b2f3-9a26d5d0cdcc")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a88ddf4a-f661-4cd8-adde-72bdcf1f9360")
+		(property "Reference" "SW2"
+			(at 64.77 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4132a28f-6427-404e-80c8-8df9fe427bf1")
+		)
+		(pin "2"
+			(uuid "f34f3bf1-a185-4b27-84a9-e3690318c794")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 64.77 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad0fa18c-07e6-49c1-8704-3deb1277fa08")
+		(property "Reference" "SW9"
+			(at 64.77 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df7552fa-b0d6-4d93-8943-66321bb4cd80")
+		)
+		(pin "2"
+			(uuid "157b5cfa-50f5-4d91-8af5-71f0d6ea48d8")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0e83fdd-262c-4a21-a952-00e5b5c39740")
+		(property "Reference" "R26"
+			(at 187.96 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 187.96 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 187.96 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06f815f1-ce38-4a0c-89eb-53d018c95a89")
+		)
+		(pin "2"
+			(uuid "877994e7-cfca-44cf-9e5a-e5d69cfb2adb")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b15603fa-18fd-42c6-8cbf-2c61221bea37")
+		(property "Reference" "SW27"
+			(at 132.08 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "debeb674-b2b3-4fcb-a80d-4444c7ee0f9e")
+		)
+		(pin "2"
+			(uuid "7c888e99-bd3a-497c-b487-a9e6c5443ac7")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b74691bb-4cfd-48fb-b8a2-765008b63944")
+		(property "Reference" "SW4"
+			(at 99.06 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 99.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 99.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 99.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 99.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a555d3d3-49fb-418a-b7f5-4faf22075e7c")
+		)
+		(pin "2"
+			(uuid "4eb907b5-035b-485d-aa89-6b4484b1ec47")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.26 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb2744fd-7387-4f89-9b5a-7537d5b63090")
+		(property "Reference" "SW15"
+			(at 48.26 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c78876ca-40a9-4398-9c1e-42ee674914bf")
+		)
+		(pin "2"
+			(uuid "3eb962f8-8d24-436e-a62f-58ab7094c6c1")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.26 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf91b89e-08cd-405d-bc6e-0de4537ff42c")
+		(property "Reference" "SW8"
+			(at 48.26 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef658e9d-a7eb-4ee4-8804-aa4edcef7857")
+		)
+		(pin "2"
+			(uuid "8243e036-39d7-4ac0-b85e-99a16a08a048")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c40e2c31-d2b7-4a0b-b757-6a44c7097c40")
+		(property "Reference" "SW10"
+			(at 81.28 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 81.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 81.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0baa2bb9-0469-469b-a361-7cdfa2969d66")
+		)
+		(pin "2"
+			(uuid "f6e5afcd-5167-44be-bac8-764946327ad9")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8589d8f-0fcf-4627-8d44-d846457e55d6")
+		(property "Reference" "SW34"
+			(at 132.08 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76b2ab7f-6d70-4668-b303-351642efa495")
+		)
+		(pin "2"
+			(uuid "abc03ce0-c740-4315-b63e-4faa64405320")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8731a03-2621-46d0-bf3e-538f5a005bcc")
+		(property "Reference" "SW45"
+			(at 81.28 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3482be5-b0aa-4bb8-a532-e7f1e1366764")
+		)
+		(pin "2"
+			(uuid "051b1a87-3156-471c-8614-a797836b34dc")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c93e3221-be43-4bb3-b314-8e0a0a702c5a")
+		(property "Reference" "SW41"
+			(at 132.08 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b1f8b8-eb20-40a3-9f79-2d54cbb4cf43")
+		)
+		(pin "2"
+			(uuid "88734a8e-b12a-44b3-9b7c-189fca397761")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2a2456d-07b2-45c5-8e7f-61968d005369")
+		(property "Reference" "SW24"
+			(at 81.28 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df9c3ef-7075-4c01-babb-e9dfcd9e0503")
+		)
+		(pin "2"
+			(uuid "75e7a3d7-c8f0-482d-9c74-da15bd3b13e7")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 115.57 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3327574-d95a-4cbd-8a6c-3d3b73d2ecca")
+		(property "Reference" "SW47"
+			(at 115.57 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aafbe676-432a-4b8e-8380-38d0b5440bbd")
+		)
+		(pin "2"
+			(uuid "d953ae4a-349b-4948-947e-6d9b7b31f553")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 48.26 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8813f59-005d-427f-963c-2f20a1ebbecc")
+		(property "Reference" "SW43"
+			(at 48.26 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2852bf99-320f-4596-8e43-954c18f51af6")
+		)
+		(pin "2"
+			(uuid "6afff8fc-37a5-44c5-8065-f7c27fcac152")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dce8018a-96cd-444d-9d17-4f23781bdd0b")
+		(property "Reference" "SW28"
+			(at 148.59 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28a38f1c-a5d8-4f8b-8d86-60203a6151b8")
+		)
+		(pin "2"
+			(uuid "824e3a5d-6068-4030-b2d6-9d63ece6161c")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 81.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e066aba1-6f62-4333-b7ec-e001004dcd64")
+		(property "Reference" "SW38"
+			(at 81.28 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c82dc6ed-d52a-4a7f-b0e0-058ecf557ef8")
+		)
+		(pin "2"
+			(uuid "ff9f7bfa-daa5-451e-bad6-774fa353c75b")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb61aa9b-a2e9-468c-a774-35b9b97c0619")
+		(property "Reference" "SW35"
+			(at 148.59 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9468d9ec-cd50-4d3a-ab8e-bae3e177c56a")
+		)
+		(pin "2"
+			(uuid "505479cc-86f6-4f9b-8aaa-30c952db4d90")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebaa6a3e-4bb5-4750-9e05-d39fefdddfc0")
+		(property "Reference" "SW48"
+			(at 132.08 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6d44063-9e35-4c09-a87e-10dac621aeda")
+		)
+		(pin "2"
+			(uuid "9f1929de-f3d1-4d34-98b7-e7b599c80679")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5eb6f53-47d9-443f-9bb8-3c40d8ef1ebb")
+		(property "Reference" "SW49"
+			(at 148.59 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4965f0ea-41f6-4f3c-b923-eea7fa0ea768")
+		)
+		(pin "2"
+			(uuid "4fb78fb2-9762-4eb8-9bc1-ab689714da73")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f78ae885-4cc3-42e3-b0d0-04794347db8f")
+		(property "Reference" "R28"
+			(at 198.12 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 198.12 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 198.12 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40de464-a5ff-4d01-8352-b84763c47a52")
+		)
+		(pin "2"
+			(uuid "79b940c3-155b-48c9-b976-5607b5b98612")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 115.57 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb59430c-8e36-49f3-b7fa-3471fb5f29c3")
+		(property "Reference" "SW26"
+			(at 115.57 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MATRIX"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64658"
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c1ee4a4-978a-49b8-a1fa-fc8c21ec64cd")
+		)
+		(pin "2"
+			(uuid "c39d7aef-7969-46e4-a907-694306084386")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/56317aaa-6713-48dd-9a9a-a978bb3ed9ee"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
