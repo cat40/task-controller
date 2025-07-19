@@ -3380,7 +3380,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part #" "C352957"
+		(property "JLC Part #" ""
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -3399,6 +3399,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C352957"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -3602,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part #" "C352957"
+		(property "JLC Part #" ""
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -3621,6 +3630,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C352957"
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -3890,7 +3908,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part #" "C352957"
+		(property "JLC Part #" ""
 			(at 167.64 38.1 0)
 			(effects
 				(font
@@ -3909,6 +3927,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C352957"
 			(at 167.64 38.1 0)
 			(effects
 				(font
@@ -4087,7 +4114,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part #" "C352957"
+		(property "JLC Part #" ""
 			(at 167.64 127 0)
 			(effects
 				(font
@@ -4106,6 +4133,15 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C352957"
 			(at 167.64 127 0)
 			(effects
 				(font

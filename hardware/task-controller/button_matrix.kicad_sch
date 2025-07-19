@@ -3688,6 +3688,16 @@
 		)
 		(uuid "1a75e2df-b25c-456c-b684-9cbd137bea4e")
 	)
+	(text "Lay out in 3 columns of 16, with one spare\n(spare can be used as a reset all button or something)"
+		(exclude_from_sim no)
+		(at 201.168 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "267193fa-c75e-43e8-b0bd-657f542d445e")
+	)
 	(text "Todo check if pullups are needed and that schematic is correct"
 		(exclude_from_sim no)
 		(at 242.316 17.272 0)

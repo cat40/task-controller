@@ -568,7 +568,7 @@
           "group_by": false,
           "label": "JLC Part #",
           "name": "JLC Part #",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -628,6 +628,10 @@
     [
       "56317aaa-6713-48dd-9a9a-a978bb3ed9ee",
       "Button Matrix"
+    ],
+    [
+      "3aafe60e-1e23-4338-8d81-213331902af8",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
