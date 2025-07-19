@@ -1396,6 +1396,12 @@
 		)
 	)
 	(junction
+		(at 83.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e933558-4c20-4c17-9793-f73aa1cb0142")
+	)
+	(junction
 		(at 60.96 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1482,6 +1488,16 @@
 			(type default)
 		)
 		(uuid "123e4828-3521-4546-9d1c-2d50e1ac32b8")
+	)
+	(wire
+		(pts
+			(xy 64.77 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129db03f-2d82-4feb-8df5-c122bd521f63")
 	)
 	(wire
 		(pts
@@ -1835,6 +1851,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 114.3) (xy 64.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40929b4-694d-403c-90b0-0601f6331685")
+	)
+	(wire
+		(pts
 			(xy 92.71 36.83) (xy 92.71 40.64)
 		)
 		(stroke
@@ -1842,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "b4965ebb-c158-416b-9504-c37d828341e7")
+	)
+	(wire
+		(pts
+			(xy 64.77 101.6) (xy 64.77 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b575d229-e1ac-4abc-859b-9d50c20f7ff7")
 	)
 	(wire
 		(pts
@@ -2325,6 +2361,178 @@
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/3aafe60e-1e23-4338-8d81-213331902af8"
 					(reference "#PWR54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b6ebf7-7d9f-4771-99a7-71d7f3e2bd2f")
+		(property "Reference" "C24"
+			(at 68.58 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 68.58 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 65.7352 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525 "
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a1e0c65-f4f1-44dc-9729-357d4e055f2d")
+		)
+		(pin "1"
+			(uuid "7ca7af71-9454-434b-9cef-4c073224ec90")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/3aafe60e-1e23-4338-8d81-213331902af8"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2662aa03-599c-4898-ad29-4c9f4a9bd1f5")
+		(property "Reference" "#PWR42"
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a789dad0-7611-4de5-b23f-10ae95008ad5")
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/3aafe60e-1e23-4338-8d81-213331902af8"
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
