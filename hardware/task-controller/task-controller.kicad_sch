@@ -7292,16 +7292,6 @@
 		)
 		(uuid "cb07a726-6eeb-475d-8216-2b5c9571dc5d")
 	)
-	(label "SD_CS"
-		(at 26.67 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1b60a05-426c-479a-a757-c439701622fc")
-	)
 	(label "SPI_SCK"
 		(at 127 92.71 0)
 		(effects
