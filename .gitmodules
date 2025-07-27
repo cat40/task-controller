@@ -1,0 +1,9 @@
+[submodule "hardware/task-controller/logo-combined"]
+	path = hardware/task-controller/logo-combined
+	url = git@github.com:cat40/logo-combined.git
+[submodule "hardware/task-controller/logo-copper"]
+	path = hardware/task-controller/logo-copper
+	url = git@github.com:cat40/logo-copper.git
+[submodule "hardware/task-controller/logo-silk"]
+	path = hardware/task-controller/logo-silk
+	url = git@github.com:cat40/logo-silk.git
