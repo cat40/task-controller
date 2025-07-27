@@ -14549,6 +14549,44 @@
 		)
 	)
 	(sheet
+		(at 76.2 157.48)
+		(size 15.24 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "517306d4-7c09-4cbc-b69e-f5ec77793abc")
+		(property "Sheetname" "graphics"
+			(at 76.2 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "graphics.kicad_sch"
+			(at 76.2 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "task-controller"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 151.13 66.04)
 		(size 12.7 35.56)
 		(stroke

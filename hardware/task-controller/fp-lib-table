@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "logo_combined")(type "KiCad")(uri "${KIPRJMOD}/logo-combined/logo_combined.pretty")(options "")(descr ""))
+  (lib (name "logo_copper")(type "KiCad")(uri "${KIPRJMOD}/logo-copper/logo_copper.pretty")(options "")(descr ""))
+  (lib (name "logo_silk")(type "KiCad")(uri "${KIPRJMOD}/logo-silk/logo_silk.pretty")(options "")(descr ""))
+)
