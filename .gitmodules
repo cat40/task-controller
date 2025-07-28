@@ -7,3 +7,9 @@
 [submodule "hardware/task-controller/logo-silk"]
 	path = hardware/task-controller/logo-silk
 	url = git@github.com:cat40/logo-silk.git
+[submodule "software/raspberry-kitten"]
+	path = software/raspberry-kitten
+	url = git@github.com:cat40/raspberry-kitten.git
+[submodule "software/pico-sdk"]
+	path = software/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
