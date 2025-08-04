@@ -1889,7 +1889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "logo_silk:horn_logo_combined_7.500mm"
+		(property "Footprint" "logo_silk:horn_logo_combined_5.000mm"
 			(at 36.83 38.1 0)
 			(effects
 				(font
@@ -2057,7 +2057,7 @@
 		(lib_id "Graphic:SYM_ESD_Small")
 		(at 30.48 24.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2100,15 +2100,6 @@
 			)
 		)
 		(property "Description" "ESD warning/\"Do not touch\" symbol, small"
-			(at 30.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 30.48 24.13 0)
 			(effects
 				(font

@@ -59,14 +59,14 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|7230000|12670000|47ee2e41-243e-4a7d-841d-a768d11a6854|7c3a9fb8-f3db-47ba-9147-36bf83f74a94",
-        "hole_clearance|7230000|12670000|9153c3ea-9296-4afe-8cb3-4fecb854630a|7c3a9fb8-f3db-47ba-9147-36bf83f74a94",
-        "hole_clearance|7230000|12870000|7fd5a4b0-9448-4bd9-943d-aceca83b1715|7c3a9fb8-f3db-47ba-9147-36bf83f74a94",
-        "hole_clearance|7230000|12870000|f1aeaffe-25bc-43e6-b86b-6bbbdcb33478|7c3a9fb8-f3db-47ba-9147-36bf83f74a94",
-        "hole_clearance|7230000|18270000|79e0ea8e-db66-4c1b-9998-e58d36b759c4|2a490560-1f5d-4ccf-9053-ae482f4a287c",
-        "hole_clearance|7230000|18270000|b98cb8d1-bd2d-4856-a088-422025a44ab0|2a490560-1f5d-4ccf-9053-ae482f4a287c",
-        "hole_clearance|7230000|18470000|397412c3-fd65-4d2a-b928-73ef22f7b9f4|2a490560-1f5d-4ccf-9053-ae482f4a287c",
-        "hole_clearance|7230000|18470000|86b5d00b-7952-439d-83cd-a8972e1a7f50|2a490560-1f5d-4ccf-9053-ae482f4a287c"
+        "hole_clearance|7230000|12670000|7c3a9fb8-f3db-47ba-9147-36bf83f74a94|47ee2e41-243e-4a7d-841d-a768d11a6854",
+        "hole_clearance|7230000|12670000|7c3a9fb8-f3db-47ba-9147-36bf83f74a94|9153c3ea-9296-4afe-8cb3-4fecb854630a",
+        "hole_clearance|7230000|12870000|7c3a9fb8-f3db-47ba-9147-36bf83f74a94|7fd5a4b0-9448-4bd9-943d-aceca83b1715",
+        "hole_clearance|7230000|12870000|7c3a9fb8-f3db-47ba-9147-36bf83f74a94|f1aeaffe-25bc-43e6-b86b-6bbbdcb33478",
+        "hole_clearance|7230000|18270000|2a490560-1f5d-4ccf-9053-ae482f4a287c|79e0ea8e-db66-4c1b-9998-e58d36b759c4",
+        "hole_clearance|7230000|18270000|2a490560-1f5d-4ccf-9053-ae482f4a287c|b98cb8d1-bd2d-4856-a088-422025a44ab0",
+        "hole_clearance|7230000|18470000|2a490560-1f5d-4ccf-9053-ae482f4a287c|397412c3-fd65-4d2a-b928-73ef22f7b9f4",
+        "hole_clearance|7230000|18470000|2a490560-1f5d-4ccf-9053-ae482f4a287c|86b5d00b-7952-439d-83cd-a8972e1a7f50"
       ],
       "meta": {
         "version": 2
@@ -140,7 +140,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -474,6 +474,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.286,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.286,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -481,14 +498,23 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "USB_D*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
