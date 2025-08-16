@@ -7805,7 +7805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052315e3-8291-4f40-b4ed-a8a008086a9e")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 251.1141 76.2 0)
 			(effects
 				(font
@@ -7859,15 +7859,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 248.92 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C914923"
 			(at 248.92 86.36 0)
 			(effects
@@ -7904,7 +7895,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7986,7 +7977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b117540-4ef3-42e3-9210-504086db5f8b")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 24.13 87.63 90)
 			(effects
 				(font
@@ -8047,15 +8038,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 24.13 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dbe5d09d-8d68-4f6c-8b71-a1703f57e1e3")
 		)
@@ -8065,7 +8047,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8080,7 +8062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d9647b5-06a7-4f1b-aaa3-06334a66f86d")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 261.874 73.66 90)
 			(effects
 				(font
@@ -8141,15 +8123,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 264.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f8ea0077-ffbc-432b-91ad-8b66e7c0b86f")
 		)
@@ -8159,7 +8132,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8241,7 +8214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1247ea8e-7e73-42f8-a741-584dcdce7f87")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 162.56 139.6999 0)
 			(effects
 				(font
@@ -8313,15 +8286,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 160.02 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6bf6ac08-762a-4a56-82a4-99bd04ddfc40")
 		)
@@ -8331,7 +8295,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8347,7 +8311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15699809-84c8-4b85-9efa-7ffb8c97d756")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 87.63 19.05 90)
 			(effects
 				(font
@@ -8417,15 +8381,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 87.63 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5faa35d8-7f99-4a5d-b1bf-ce15fc7cb2aa")
 		)
@@ -8435,7 +8390,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8517,7 +8472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aa741ec-47fc-491b-b872-4833ec78fbb3")
-		(property "Reference" "SW51"
+		(property "Reference" "SW50"
 			(at 130.81 176.5299 90)
 			(effects
 				(font
@@ -8589,15 +8544,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 127 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a86a3855-982b-429c-831c-067fa0ce0be7")
 		)
@@ -8607,7 +8553,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "SW51")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -8689,7 +8635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22017fef-b8e4-4a2d-a838-403396ed5583")
-		(property "Reference" "C18"
+		(property "Reference" "C5"
 			(at 187.96 24.1299 0)
 			(effects
 				(font
@@ -8761,15 +8707,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 184.15 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f436aa16-c931-462e-b3b7-d15691f4346b")
 		)
@@ -8779,7 +8716,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C18")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8861,7 +8798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2774121a-b5ee-4c1d-b8e6-b9acf333de96")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 153.67 24.1299 0)
 			(effects
 				(font
@@ -8933,15 +8870,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 149.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "3a8de01e-2193-4f34-8f1f-36f31eb2aad0")
 		)
@@ -8951,7 +8879,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "300c33fd-b533-4021-99bd-a4f83362cb0e")
-		(property "Reference" "R1"
+		(property "Reference" "R12"
 			(at 43.18 129.286 90)
 			(effects
 				(font
@@ -9027,15 +8955,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 43.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9eecad5e-dc4c-4cfa-b4b4-3f3d4953a24c")
 		)
@@ -9045,7 +8964,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9192,7 +9111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3aa5aa72-0660-4def-b125-9bed869ed11a")
-		(property "Reference" "R21"
+		(property "Reference" "R19"
 			(at 266.954 73.66 90)
 			(effects
 				(font
@@ -9253,15 +9172,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 269.24 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1bbd8864-0950-4321-8635-7793bb32d6b9")
 		)
@@ -9271,7 +9181,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9683,7 +9593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52023dc2-a29e-46af-9d5e-cc6668ee8bea")
-		(property "Reference" "C17"
+		(property "Reference" "C7"
 			(at 176.53 24.1299 0)
 			(effects
 				(font
@@ -9755,15 +9665,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 172.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4adbd352-91aa-441e-bf0d-87e5fb5d03ab")
 		)
@@ -9773,7 +9674,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C17")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9789,7 +9690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53c183f1-f3da-4697-9578-d88052d5609c")
-		(property "Reference" "R3"
+		(property "Reference" "R20"
 			(at 59.69 124.4599 0)
 			(effects
 				(font
@@ -9861,15 +9762,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 57.15 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b505cc4c-be3d-4cc1-89a3-dcab1f0c5135")
 		)
@@ -9879,7 +9771,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R3")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9895,7 +9787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55aa2557-d9c4-47c7-b5d4-fab477c9c9b7")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 119.38 176.5299 0)
 			(effects
 				(font
@@ -9967,15 +9859,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 115.57 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2a416b50-0e05-4035-8a6c-a714f61a953a")
 		)
@@ -9985,7 +9868,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10001,7 +9884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55fcabc5-521c-47a5-8821-65d675148a63")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 29.21 26.6699 0)
 			(effects
 				(font
@@ -10067,7 +9950,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10215,7 +10098,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "594aa9af-6443-4c66-8d74-a9b7de17849e")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 181.61 153.6699 0)
 			(effects
 				(font
@@ -10269,7 +10152,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10285,7 +10168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59d45528-0a25-4989-a509-501adae53201")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 142.24 24.1299 0)
 			(effects
 				(font
@@ -10357,15 +10240,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7fb07fc5-1e05-4db6-bb55-ff0268ca67a8")
 		)
@@ -10375,7 +10249,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10391,7 +10265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b09396a-ec26-4bac-a868-00a44b8f460b")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 130.81 24.1299 0)
 			(effects
 				(font
@@ -10463,15 +10337,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 127 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "edc35419-3f18-4403-be7d-4aebcba7b9a9")
 		)
@@ -10481,7 +10346,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10563,7 +10428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "610e8427-6ba2-4aef-a9fc-7f02e9ead1ab")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 87.63 30.48 90)
 			(effects
 				(font
@@ -10633,15 +10498,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 87.63 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "98122547-928a-4021-ba04-fcd034ded51f")
 		)
@@ -10651,7 +10507,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10666,7 +10522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61788708-0def-4b14-8010-32d4523e12ca")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 54.61 106.426 90)
 			(effects
 				(font
@@ -10727,15 +10583,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 54.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "384f602d-6d48-4e87-baa4-5552f3a7e2f6")
 		)
@@ -10745,7 +10592,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10758,10 +10605,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64389eeb-935d-4bfa-8854-0eb40da2c34c")
-		(property "Reference" "R12"
+		(property "Reference" "R22"
 			(at 162.56 152.3999 0)
 			(effects
 				(font
@@ -10807,7 +10654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" ""
+		(property "Cost" " C64658 "
 			(at 160.02 153.67 0)
 			(effects
 				(font
@@ -10825,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "LCSC Part #" "C2829150"
 			(at 160.02 153.67 0)
 			(effects
 				(font
@@ -10834,7 +10681,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C64658"
+		(property "FT Rotation Offset" "180"
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
 			(at 160.02 153.67 0)
 			(effects
 				(font
@@ -10852,7 +10708,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R12")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10868,7 +10724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64b063b2-fb4a-47b8-ba28-9a390b5639c7")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 165.1 24.1299 0)
 			(effects
 				(font
@@ -10940,15 +10796,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 161.29 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4222c28d-53e8-47aa-aea0-63fd64bfab53")
 		)
@@ -10958,7 +10805,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10974,7 +10821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d2a120-8b85-46f9-bd38-e87da9b8ed65")
-		(property "Reference" "C20"
+		(property "Reference" "C15"
 			(at 210.82 24.1299 0)
 			(effects
 				(font
@@ -11046,15 +10893,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 207.01 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "12353a82-cddc-4486-807b-2885d9ad9627")
 		)
@@ -11064,7 +10902,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C20")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11079,7 +10917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6acbad73-ba54-4db8-acfe-22d9384cad36")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 121.666 162.56 90)
 			(effects
 				(font
@@ -11140,15 +10978,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 124.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5592aeff-ec9c-49f8-ad95-fa3c6085f59a")
 		)
@@ -11158,7 +10987,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11173,7 +11002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73046fd0-8742-4329-bf89-6eab7f9c69ec")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 144.272 53.594 90)
 			(effects
 				(font
@@ -11234,15 +11063,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4799ca5c-1605-4ac6-b764-35a8ab3a9b35")
 		)
@@ -11252,7 +11072,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11268,7 +11088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754a5f2a-9d52-410f-99f2-4fec9f10ba83")
-		(property "Reference" "SW50"
+		(property "Reference" "SW51"
 			(at 60.96 139.6999 90)
 			(effects
 				(font
@@ -11340,15 +11160,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "400fbbb7-db54-4d82-bba9-fbbe8b0fb98a")
 		)
@@ -11358,7 +11169,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "SW50")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aacb0b2-257d-42c6-9c1c-8d31432e5e66")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 208.28 63.246 90)
 			(effects
 				(font
@@ -11500,15 +11311,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 208.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "15781b0a-4461-4a6c-8549-a29d93ba7b05")
 		)
@@ -11518,7 +11320,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11533,7 +11335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b25d1d1-e39f-4dd7-9af6-965698d868f4")
-		(property "Reference" "R19"
+		(property "Reference" "R27"
 			(at 232.664 95.25 90)
 			(effects
 				(font
@@ -11594,15 +11396,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "fccae286-1ea3-4212-9dcf-2678adf57d81")
 		)
@@ -11612,7 +11405,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R19")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11691,15 +11484,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 52.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "605639fb-c40b-466a-b263-c137de58bb2c")
 		)
@@ -11742,7 +11526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "860edb62-a688-4247-9cf0-4da39972e1a3")
-		(property "Reference" "R18"
+		(property "Reference" "R26"
 			(at 227.584 95.25 90)
 			(effects
 				(font
@@ -11803,15 +11587,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 229.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "a190a4b5-a633-450a-bfcc-e893d68907c6")
 		)
@@ -11821,7 +11596,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R18")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11919,7 +11694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88d7f236-4675-416e-842d-ba4fbc74adb1")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 240.03 34.2899 0)
 			(effects
 				(font
@@ -11991,15 +11766,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 236.22 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "79c33ac0-749d-4d35-a8e8-4cb23e4f01b3")
 		)
@@ -12009,7 +11775,7 @@
 		(instances
 			(project "task-controller"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12157,7 +11923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "981decb6-9f95-41c7-a459-387f112cfa90")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 103.7941 129.54 0)
 			(effects
 				(font
@@ -12220,7 +11986,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "FT Rotation Offset" "90"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -12403,7 +12169,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12418,7 +12184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99ff9ebe-fb10-49ee-bcfb-539a0d136000")
-		(property "Reference" "R16"
+		(property "Reference" "R28"
 			(at 222.504 95.25 90)
 			(effects
 				(font
@@ -12479,15 +12245,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 224.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e68c87dd-f358-413c-8943-36f7ceec60fb")
 		)
@@ -12497,7 +12254,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R16")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12578,7 +12335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f1fb259-a9ed-4a5a-9d33-f47347cdd10f")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 208.28 56.134 90)
 			(effects
 				(font
@@ -12639,15 +12396,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 208.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1c6c03e4-3c83-409b-97c5-04b8f01d3fd1")
 		)
@@ -12657,7 +12405,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12871,7 +12619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4c48aa5-f91a-4e23-8d8e-02ea9d8bc964")
-		(property "Reference" "C9"
+		(property "Reference" "C14"
 			(at 69.85 25.3999 0)
 			(effects
 				(font
@@ -12943,15 +12691,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "38664bba-4ea1-42e7-b839-749313ae3012")
 		)
@@ -12961,7 +12700,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C9")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13043,7 +12782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa6a41ae-99d1-47d9-88cd-e9cbbd2242a6")
-		(property "Reference" "C7"
+		(property "Reference" "C17"
 			(at 34.29 48.26 90)
 			(effects
 				(font
@@ -13113,15 +12852,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 34.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e94afe2b-9694-4b8d-bd54-c3d51cd4bc44")
 		)
@@ -13131,7 +12861,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C7")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13147,7 +12877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3d9fab-368f-4d53-acb0-e1c85349a925")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 24.13 101.6 90)
 			(effects
 				(font
@@ -13208,15 +12938,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 24.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "260d858c-b6f2-4417-bae7-dd5e5a4ba0f9")
 		)
@@ -13226,7 +12947,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13296,15 +13017,6 @@
 			)
 		)
 		(property "DK #" ""
-			(at 254 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 254 29.21 0)
 			(effects
 				(font
@@ -13467,15 +13179,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 152.4 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e5bc7e0d-0150-4082-86b2-f98091f0eb7a")
 		)
@@ -13567,7 +13270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5a14344-5edb-44bd-95a5-9fb42b7e3dc6")
-		(property "Reference" "C21"
+		(property "Reference" "C18"
 			(at 240.03 67.31 90)
 			(effects
 				(font
@@ -13637,15 +13340,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 240.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "98341a30-af6e-47c1-a26f-611be9cd39f2")
 		)
@@ -13655,7 +13349,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C21")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13732,15 +13426,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 45.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f16de136-48eb-4cba-836f-cb270e7049d5")
 		)
@@ -13772,7 +13457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc34082a-1d1b-4b75-a6ba-09517ccade56")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 275.59 34.2899 0)
 			(effects
 				(font
@@ -13844,15 +13529,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 271.78 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9c3242d0-5085-44d7-8eed-e0c2333d9d38")
 		)
@@ -13862,7 +13538,7 @@
 		(instances
 			(project "task-controller"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -13877,7 +13553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1c16658-cbdb-434f-8759-b34cc8ec9140")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 70.866 52.07 90)
 			(effects
 				(font
@@ -13938,15 +13614,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 71.12 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "184b6c43-5ec6-43f6-bacf-08efdfb2ce5c")
 		)
@@ -13956,7 +13623,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14495,7 +14162,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "Cost" ""
+			(at 180.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "-1.0795,0"
 			(at 180.34 68.58 0)
 			(effects
 				(font
@@ -14640,7 +14316,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec7500b8-4c02-42de-90a5-eff3923b8549")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 161.29 39.3699 0)
 			(effects
 				(font
@@ -14700,7 +14376,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14715,7 +14391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "effcb546-9522-4bf6-934b-9031a0f7dc90")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 71.12 59.69 90)
 			(effects
 				(font
@@ -14776,15 +14452,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 71.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d1cdb731-e28f-485e-84d8-ea43407e38f9")
 		)
@@ -14794,7 +14461,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14810,7 +14477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2faada6-9185-4d8e-bf1c-99db84e07509")
-		(property "Reference" "R22"
+		(property "Reference" "R25"
 			(at 275.59 92.7099 0)
 			(effects
 				(font
@@ -14882,15 +14549,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 273.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e167c748-db96-4a47-be30-47b2179d35dd")
 		)
@@ -14900,7 +14558,7 @@
 		(instances
 			(project "reminder-sequin"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R22")
+					(reference "R25")
 					(unit 1)
 				)
 			)

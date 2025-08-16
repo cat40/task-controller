@@ -274,7 +274,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0349b733-e02e-4b66-a43a-093d636114f7")
-		(property "Reference" "H4"
+		(property "Reference" "H6"
 			(at 22.86 39.3699 0)
 			(effects
 				(font
@@ -325,7 +325,7 @@
 		(instances
 			(project "task-controller"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/121f83e2-7284-4408-9524-8573a0418571"
-					(reference "H4")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -539,7 +539,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45f5f581-581b-4f6b-bcc9-88409b034fc5")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 71.12 19.0499 0)
 			(effects
 				(font
@@ -590,7 +590,7 @@
 		(instances
 			(project "task-controller"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/121f83e2-7284-4408-9524-8573a0418571"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -672,7 +672,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71e11f5f-8efb-40f0-acef-cb6b196a41b9")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 22.86 19.0499 0)
 			(effects
 				(font
@@ -723,7 +723,7 @@
 		(instances
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/121f83e2-7284-4408-9524-8573a0418571"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1005,7 +1005,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f960636e-9fc6-4121-b356-9629bc69884f")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 71.12 39.3699 0)
 			(effects
 				(font
@@ -1056,7 +1056,7 @@
 		(instances
 			(project "task-controller"
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c/121f83e2-7284-4408-9524-8573a0418571"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
