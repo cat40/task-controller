@@ -40,6 +40,7 @@ target_link_libraries( choreboard
     hardware_adc
     pico_neopixel
     kitten-utilities
+    kitten-matrix
 )
 
 target_link_options(choreboard PUBLIC "LINKER:--print-memory-usage,-Map=memory.map,--gc-sections")
