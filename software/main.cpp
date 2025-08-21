@@ -16,7 +16,9 @@ Adafruit_NeoPixel rgb1(DEFAULT_NUM_PIXELS, RGB_1_PIN, PIXEL_PARAMETERS);
 Adafruit_NeoPixel rgb2(DEFAULT_NUM_PIXELS, RGB_2_PIN, PIXEL_PARAMETERS);
 Adafruit_NeoPixel rgb3(DEFAULT_NUM_PIXELS, RGB_3_PIN, PIXEL_PARAMETERS);
 
-ButtonMatrix buttons(MATRIX_ROWS, MATRIX_COLUMNS, NUM_MATRIX_ROWS NUM_MATRIX_COLUMNS, 200)
+ButtonMatrix buttons(MATRIX_ROWS, MATRIX_COLUMNS, NUM_MATRIX_ROWS, NUM_MATRIX_COLUMNS, 200);
+
+static void setup(void);
 
 int main(void)
 {
@@ -26,9 +28,7 @@ int main(void)
 
     printf("Starting program chore-board, hash: %s\n", COMMIT_HASH);
 
-    setup_digital_output(FUNSIES_LED_PIN, 1);
-
-    buttons.init();
+    setup();
 
     rgb1.updateLength(30);
 
@@ -49,4 +49,11 @@ int main(void)
     }
 
     while(1);
+}
+
+static void setup(void)
+{
+    setup_digital_output(FUNSIES_LED_PIN, 1);
+
+    buttons.init();
 }
