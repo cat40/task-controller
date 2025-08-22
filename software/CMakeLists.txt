@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(PICO_BOARD adafruit_feather_rp2040)
+set(PICO_BOARD_HEADER_DIRS ${CMAKE_SOURCE_DIR}) 
+set(PICO_BOARD chore_board_hw)
 
 # add_compile_options(-fanalyzer -fstack-usage)
 add_compile_options(-fstack-usage)
@@ -39,6 +40,7 @@ target_link_libraries( choreboard
     hardware_adc
     pico_neopixel
     kitten-utilities
+    kitten-matrix
 )
 
 target_link_options(choreboard PUBLIC "LINKER:--print-memory-usage,-Map=memory.map,--gc-sections")
