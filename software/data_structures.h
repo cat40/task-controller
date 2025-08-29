@@ -3,13 +3,26 @@
 
 #include <stdint.h>
 
+typedef enum chore_type_t {
+    DAY_OF_MONTH,
+    DAY_OF_WEEK,
+    PERIODIC
+};
+
 typedef struct {
     char str_id[16];
-    uint8_t num_id;
-    uint32_t timeout_interval_mintues;
+    uint8_t port;
+    uint32_t deadline;  // interpretation changes depending on chore type. See comment below
     uint32_t warning_length_mintues;
     uint8_t priority;
+    chore_type_t chore_type;
 } chore_t;
+
+/* Deadline interpretation by chore type:
+    * Day of month: month day (1-28). Don't put 29, 30, or 31 if you value your sanity...
+    * Day of week: Week day (0-6). Sunday is 0.
+    * Periodic: Interval in mintues. 
+*/
 
 typedef struct {
     uint8_t red;
