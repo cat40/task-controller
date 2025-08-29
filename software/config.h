@@ -4,7 +4,20 @@
 #include "pico/stdlib.h"
 #include "hardware/uart.h"
 
+#include "data_structures.h"
+
 #define STARTUP_WAIT        3000
+
+// defaults
+#define GOOD_COLOR                  ((0<<16) | (255<<8) | 0)
+#define WARNING_COLOR               ((255<<16) | (255<<8) | 0)
+#define OVERDUE_COLOR               ((255<<16) | (0<<8) | 0)
+#define OVERDUE_LOW_PRIORITY_COLOR  ((255<<16) | (0<<8) | 255)
+
+// eeprom stuff
+#define SETTINGS_ADDRESS    0
+#define CHORES_ADDRESS      (sizeof(settings_packet_t) + 1)
+
 
 // pin assignments
 #define FUNSIES_LED_PIN 4

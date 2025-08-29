@@ -29,6 +29,8 @@ add_definitions("-DCOMMIT_HASH=\"${COMMIT_HASH}\"")
 
 add_executable(choreboard
   main.cpp
+  eeprom.cpp
+  settings.cpp
 )
 
 add_compile_options(-fstack-usage)

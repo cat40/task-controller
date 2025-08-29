@@ -4,6 +4,7 @@ extern "C"
 {
 #include "config.h"
 #include "utilities.h"
+#include "data_structures.h"
 }
 
 #include <stdio.h>
@@ -11,6 +12,7 @@ extern "C"
 
 #include "Adafruit_NeoPixel.hpp"
 #include "button_matrix.hpp"
+#include "settings.hpp"
 
 Adafruit_NeoPixel rgb1(DEFAULT_NUM_PIXELS, RGB_1_PIN, PIXEL_PARAMETERS);
 Adafruit_NeoPixel rgb2(DEFAULT_NUM_PIXELS, RGB_2_PIN, PIXEL_PARAMETERS);
