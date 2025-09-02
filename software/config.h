@@ -17,7 +17,10 @@
 // eeprom stuff
 #define SETTINGS_ADDRESS    0
 #define CHORES_ADDRESS      (sizeof(settings_packet_t) + 1)
+#define EEPROM_ADDRESS      (0xa0 >> 1)
 
+// rtc stuff
+#define I2C i2c0
 
 // pin assignments
 #define FUNSIES_LED_PIN 4

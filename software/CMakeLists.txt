@@ -17,6 +17,7 @@ pico_sdk_init()
 add_subdirectory(raspberry-kitten/utilities)
 add_subdirectory(raspberry-kitten/button_matrix)
 add_subdirectory(raspberry-kitten/eeprom)
+add_subdirectory(raspberry-kitten/pcf8523)
 add_subdirectory(pi-pico-adafruit-neopixels/pico_neopixels)
 
 # git commit hash macro, from https://stackoverflow.com/a/39739194
@@ -45,6 +46,7 @@ target_link_libraries( choreboard
     kitten-utilities
     kitten-matrix
     kitten-eeprom
+    kitten-pcf8523
 )
 
 target_link_options(choreboard PUBLIC "LINKER:--print-memory-usage,-Map=memory.map,--gc-sections")
