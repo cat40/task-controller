@@ -15,6 +15,8 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 add_subdirectory(raspberry-kitten/utilities)
+add_subdirectory(raspberry-kitten/button_matrix)
+add_subdirectory(raspberry-kitten/eeprom)
 add_subdirectory(pi-pico-adafruit-neopixels/pico_neopixels)
 
 # git commit hash macro, from https://stackoverflow.com/a/39739194
@@ -29,7 +31,6 @@ add_definitions("-DCOMMIT_HASH=\"${COMMIT_HASH}\"")
 
 add_executable(choreboard
   main.cpp
-  eeprom.cpp
   settings.cpp
 )
 
@@ -43,6 +44,7 @@ target_link_libraries( choreboard
     pico_neopixel
     kitten-utilities
     kitten-matrix
+    kitten-eeprom
 )
 
 target_link_options(choreboard PUBLIC "LINKER:--print-memory-usage,-Map=memory.map,--gc-sections")

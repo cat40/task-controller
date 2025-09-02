@@ -3,11 +3,11 @@
 
 #include <stdint.h>
 
-typedef enum chore_type_t {
+typedef enum {
     DAY_OF_MONTH,
     DAY_OF_WEEK,
     PERIODIC
-};
+} chore_type_t ;
 
 typedef struct {
     char str_id[16];
