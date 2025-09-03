@@ -14,6 +14,7 @@ extern "C"
 #include "button_matrix.hpp"
 #include "settings.hpp"
 #include "eeprom.hpp"
+#include "pcf8523.hpp"
 
 Adafruit_NeoPixel rgb1(DEFAULT_NUM_PIXELS, RGB_1_PIN, PIXEL_PARAMETERS);
 Adafruit_NeoPixel rgb2(DEFAULT_NUM_PIXELS, RGB_2_PIN, PIXEL_PARAMETERS);
@@ -21,12 +22,18 @@ Adafruit_NeoPixel rgb3(DEFAULT_NUM_PIXELS, RGB_3_PIN, PIXEL_PARAMETERS);
 
 ButtonMatrix buttons(MATRIX_ROWS, MATRIX_COLUMNS, NUM_MATRIX_ROWS, NUM_MATRIX_COLUMNS, 200);
 
-Eeprom eeprom (i2c0, EEPROM_ADDRESS);
+Eeprom eeprom (I2C, EEPROM_ADDRESS);
 Settings settings(&eeprom);
 
-Pcf8523 rtc(i2c0);
+Pcf8523 rtc(I2C);
+rtc_reading_t rtc_reading;
+
+chore_t chores[NUM_CHORES];
 
 static void setup(void);
+static void blink(void);
+static chore_status_t check_if_chore_done(rtc_reading_t time, chore_t chore);
+static int64_t rtc_reading_to_epoch(rtc_reading_t rtc_reading);
 
 int main(void)
 {
@@ -42,21 +49,28 @@ int main(void)
 
     uint32_t hue = 0;
 
-    while (1)
-    {
-        // busy_wait_ms(1000);
-        // gpio_put(FUNSIES_LED_PIN, 1);
-        // busy_wait_ms(1000);
-        // gpio_put(FUNSIES_LED_PIN, 0);
-        rgb1.fill(rgb1.ColorHSV(hue));
-        rgb1.setBrightness(0x0f);
-        rgb1.show();
-        busy_wait_ms(25);
-        hue += 256;
-        printf("color: %u\n", hue);
-    }
+    // todo pull chore list from settings
 
-    while(1);
+    // while (1)
+    // {
+    //     rgb1.fill(rgb1.ColorHSV(hue));
+    //     rgb1.setBrightness(0x0f);
+    //     rgb1.show();
+    //     busy_wait_ms(25);
+    //     hue += 256;
+    //     printf("color: %u\n", hue);
+    // }
+
+    while(1)
+    {
+        chore_t chore;
+        rtc.get_reading(&rtc_reading);
+        for (uint16_t i=0; i<NUM_CHORES; i++)
+        {
+            chore = chores[i];
+            rtc
+        }
+    }
 }
 
 static void setup(void)
@@ -64,4 +78,33 @@ static void setup(void)
     setup_digital_output(FUNSIES_LED_PIN, 1);
 
     buttons.init();
+}
+
+static chore_status_t check_if_chore_done(rtc_reading_t time, chore_t chore)
+{
+
+}
+
+static int64_t rtc_reading_to_epoch(rtc_reading_t rtc_reading)
+{
+    const static uint16_t days_passed_by_month_normal[] = { 0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365 };
+    const static uint16_t days_passed_by_month_leap[] = { 0, 31, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335, 366 };
+    int64_t time = 0;
+    time += ((rtc_reading.year-1970)*365 + rtc_reading.year/4)*24*60*60;  // might be off by a few days
+    if (rtc_reading.year % 4 == 0)
+    {
+        time += (days_passed_by_month_leap[rtc_reading.month])*24*60*60; // todo implement days per month
+    }
+    else
+    {
+        time += (days_passed_by_month_normal[rtc_reading.month])*24*60*60; // todo implement days per month
+    }
+}
+
+static void blink(void)
+{
+    busy_wait_ms(1000);
+    gpio_put(FUNSIES_LED_PIN, 1);
+    busy_wait_ms(1000);
+    gpio_put(FUNSIES_LED_PIN, 0);
 }

@@ -4,7 +4,7 @@
 #include "pico/stdlib.h"
 #include "hardware/uart.h"
 
-#include "data_structures.h"
+// #include "data_structures.h"
 
 #define STARTUP_WAIT        3000
 
@@ -13,6 +13,9 @@
 #define WARNING_COLOR               ((255<<16) | (255<<8) | 0)
 #define OVERDUE_COLOR               ((255<<16) | (0<<8) | 0)
 #define OVERDUE_LOW_PRIORITY_COLOR  ((255<<16) | (0<<8) | 255)
+#define DEFAULT_NUM_PIXELS          1
+
+#define NUM_CHORES                  48
 
 // eeprom stuff
 #define SETTINGS_ADDRESS    0
@@ -54,7 +57,7 @@ const static uint MATRIX_COLUMNS[] = {15, 16, 17, 21, 22, 23, 24};
 #define RTC_INT             28
 #define BUTTON              29
 
-// defaults
-#define DEFAULT_NUM_PIXELS      1
+// don't touch these
+#define ID_LENGTH   16
 
 #endif
