@@ -31,6 +31,7 @@ typedef struct {
     * Day of month: month day (1-28). Don't put 29, 30, or 31 if you value your sanity...
     * Day of week: Week day (0-6). Sunday is 0.
     * Periodic: Interval in mintues. 
+    * todo add a setting to let the first two set what time of day to trigger
 */
 
 typedef struct {

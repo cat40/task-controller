@@ -32,7 +32,7 @@ chore_t chores[NUM_CHORES];
 
 static void setup(void);
 static void blink(void);
-static chore_status_t check_if_chore_done(rtc_reading_t time, chore_t chore);
+static chore_status_t check_chore_status(rtc_reading_t time, chore_t chore);
 static int64_t rtc_reading_to_epoch(rtc_reading_t rtc_reading);
 
 int main(void)
@@ -68,8 +68,9 @@ int main(void)
         for (uint16_t i=0; i<NUM_CHORES; i++)
         {
             chore = chores[i];
-            rtc
+            check_chore_status(rtc_reading, chore);
         }
+        busy_wait_ms(5000);  // give the rtc time to actually be an rtc
     }
 }
 
@@ -80,9 +81,22 @@ static void setup(void)
     buttons.init();
 }
 
-static chore_status_t check_if_chore_done(rtc_reading_t time, chore_t chore)
+static chore_status_t check_chore_status(rtc_reading_t time, chore_t chore)
 {
-
+    if (chore.chore_type == PERIODIC)
+    {
+        int64_t current_epoch = rtc_reading_to_epoch(time);
+        int64_t time_since_last_done = current_epoch - chore.time_last_done;
+        if(time_since_last_done/60 > chore.deadline)
+        {
+            return OVERDUE;
+        }
+        else if(time_since_last_done/60 >= (chore.deadline-chore.warning_length_mintues))
+        {
+            return WARNING;
+        }
+        return GOOD;
+    }
 }
 
 static int64_t rtc_reading_to_epoch(rtc_reading_t rtc_reading)
@@ -99,6 +113,11 @@ static int64_t rtc_reading_to_epoch(rtc_reading_t rtc_reading)
     {
         time += (days_passed_by_month_normal[rtc_reading.month])*24*60*60; // todo implement days per month
     }
+    time += rtc_reading.day*24*60*60;
+    time += rtc_reading.hour*60*60;
+    time += rtc_reading.minute*60;
+    time += rtc_reading.second;
+    return time;
 }
 
 static void blink(void)
