@@ -29,6 +29,8 @@ Pcf8523 rtc(I2C);
 rtc_reading_t rtc_reading;
 
 chore_t chores[NUM_CHORES];
+uint32_t pixel_colors[NUM_CHORES];
+uint8_t num_overdue_chores = 0;
 
 static void setup(void);
 static void blink(void);
@@ -65,10 +67,26 @@ int main(void)
     {
         chore_t chore;
         rtc.get_reading(&rtc_reading);
+        uint8_t overdue_priorities[NUM_CHORES];
+        uint8_t overdue_indexes[NUM_CHORES];
         for (uint16_t i=0; i<NUM_CHORES; i++)
         {
             chore = chores[i];
-            check_chore_status(rtc_reading, chore);
+            chore_status_t chore_status = check_chore_status(rtc_reading, chore);
+            switch (chore_status)
+            {
+                case GOOD:
+                    pixel_colors[i] = GOOD_COLOR;
+                    break;
+                case WARNING:
+                    pixel_colors[i] = WARNING_COLOR;
+                    break;
+                case OVERDUE:
+                    pixel_colors[i] = OVERDUE_LOW_PRIORITY_COLOR;
+                    overdue_priorities[i] = chore.priority;
+                    
+                    break;
+            }
         }
         busy_wait_ms(5000);  // give the rtc time to actually be an rtc
     }
@@ -96,6 +114,38 @@ static chore_status_t check_chore_status(rtc_reading_t time, chore_t chore)
             return WARNING;
         }
         return GOOD;
+    }
+    else if (chore.chore_type == DAY_OF_WEEK)
+    {
+        if (time.weekday == (chore.deadline & 0xff))
+        {
+            uint32_t time_mintues = time.minute + 60*time.hour;
+            if (time_mintues > (chore.deadline>>8))
+            {
+                return OVERDUE;
+            }
+            else if (time_mintues >= ((chore.deadline>>8) - chore.warning_length_mintues))
+            {
+                return WARNING;
+            }
+            return GOOD;
+        }
+    }
+    else if (chore.chore_type == DAY_OF_MONTH)
+    {
+        if (time.day == chore.deadline&0xff)
+        {
+            uint32_t time_mintues = time.minute + 60*time.hour;
+            if (time_mintues > (chore.deadline>>8))
+            {
+                return OVERDUE;
+            }
+            else if (time_mintues >= ((chore.deadline>>8) - chore.warning_length_mintues))
+            {
+                return WARNING;
+            }
+            return GOOD;
+        }
     }
 }
 
