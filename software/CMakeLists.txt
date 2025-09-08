@@ -33,6 +33,7 @@ add_definitions("-DCOMMIT_HASH=\"${COMMIT_HASH}\"")
 add_executable(choreboard
   main.cpp
   settings.cpp
+  chore.cpp
 )
 
 add_compile_options(-fstack-usage)

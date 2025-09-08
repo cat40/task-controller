@@ -68,6 +68,7 @@ int main(void)
         chore_t chore;
         rtc.get_reading(&rtc_reading);
         uint8_t overdue_priorities[NUM_CHORES] = {{-1}};
+        uint8_t num_overdue_chores = 0;
         for (uint16_t i=0; i<NUM_CHORES; i++)
         {
             chore = chores[i];
@@ -83,15 +84,18 @@ int main(void)
                 case OVERDUE:
                     pixel_colors[i] = OVERDUE_LOW_PRIORITY_COLOR;
                     overdue_priorities[i] = chore.priority;
+                    num_overdue_chores += 1;
                     break;
             }
         }
+        // handle the overdue chores
         uint8_t min = NUM_CHORES-1;
+        if (num_overdue_chores > settings.packet->max_overdue_chores)
         for (uint16_t i=0; i<NUM_CHORES; i++)
         {
             if (overdue_priorities[i] >= 0)
             {
-
+                min = overdue_priorities[i] < min ? overdue_priorities[i] : min;
             }
         }
         busy_wait_ms(5000);  // give the rtc time to actually be an rtc

@@ -84,3 +84,4 @@ fp-info-cache
 *.dwo
 
 software/build/*
+*.vscode
