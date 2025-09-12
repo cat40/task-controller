@@ -7,11 +7,20 @@ extern "C"
 }
 
 #include <eeprom.hpp>
-
+#include "chore.hpp"
 #include <stdint.h>
 
-void write_settings(void);
-void read_settings(void);
+// void write_settings(void);
+// void read_settings(void);
+
+typedef struct {
+    Chores chores;
+    uint32_t good_color;
+    uint32_t warn_color;
+    uint32_t overdue_color;
+    uint32_t low_priority_overdue_color;
+    uint8_t  max_overdue_chores; // max before lower priority chores get assigned a different color
+} settings_packet_t;
 
 class Settings
 {

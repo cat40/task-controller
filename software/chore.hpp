@@ -10,6 +10,13 @@ extern "C"
 }
 
 #include "pcf8523.hpp"
+#include "dll.hpp"
+
+typedef enum {
+    GOOD,
+    WARNING,
+    OVERDUE
+} chore_status_t;
 
 typedef enum {
     DAY_OF_MONTH,
@@ -25,15 +32,22 @@ typedef struct {
     chore_type_t chore_type;
     int64_t time_last_done;  // unix epoch
 } chore_t;
+/* Deadline interpretation by chore type:
+    * Day of month: LSB is month day (1-28). Don't put 29, 30, or 31 if you value your sanity... The rest is the time of day in mintues
+    * Day of week: Week day (0-6). Sunday is 0.
+    * Periodic: Interval in mintues. 
+    * todo add a setting to let the first two set what time of day to trigger
+*/
 
 class Chores
 {
     public:
         Chores(void);
         void reorder_chores(uint8_t ports[NUM_CHORES]);
-        chore_t get_chore_by_port(uint8_t port);
+        chore_t* get_chore_by_port(uint8_t port);
         void update_chore_status(rtc_reading_t reading);  // updates chore status but does not change the shown colors
-        std::array<chore_t, NUM_CHORES> chore_list;
-}
+        void set_chore_priority(uint8_t port, uint8_t priority); // 0 is lowest. Will insert the chore at this level, pushing the ones after down. 
+        DoubleLinkedList<chore_t> chore_list;
+};
 
 #endif

@@ -15,6 +15,7 @@ extern "C"
 #include "settings.hpp"
 #include "eeprom.hpp"
 #include "pcf8523.hpp"
+#include "chore.hpp"
 
 Adafruit_NeoPixel rgb1(DEFAULT_NUM_PIXELS, RGB_1_PIN, PIXEL_PARAMETERS);
 Adafruit_NeoPixel rgb2(DEFAULT_NUM_PIXELS, RGB_2_PIN, PIXEL_PARAMETERS);
@@ -65,39 +66,7 @@ int main(void)
 
     while(1)
     {
-        chore_t chore;
         rtc.get_reading(&rtc_reading);
-        uint8_t overdue_priorities[NUM_CHORES] = {{-1}};
-        uint8_t num_overdue_chores = 0;
-        for (uint16_t i=0; i<NUM_CHORES; i++)
-        {
-            chore = chores[i];
-            chore_status_t chore_status = check_chore_status(rtc_reading, chore);
-            switch (chore_status)
-            {
-                case GOOD:
-                    pixel_colors[i] = GOOD_COLOR;
-                    break;
-                case WARNING:
-                    pixel_colors[i] = WARNING_COLOR;
-                    break;
-                case OVERDUE:
-                    pixel_colors[i] = OVERDUE_LOW_PRIORITY_COLOR;
-                    overdue_priorities[i] = chore.priority;
-                    num_overdue_chores += 1;
-                    break;
-            }
-        }
-        // handle the overdue chores
-        uint8_t min = NUM_CHORES-1;
-        if (num_overdue_chores > settings.packet->max_overdue_chores)
-        for (uint16_t i=0; i<NUM_CHORES; i++)
-        {
-            if (overdue_priorities[i] >= 0)
-            {
-                min = overdue_priorities[i] < min ? overdue_priorities[i] : min;
-            }
-        }
         busy_wait_ms(5000);  // give the rtc time to actually be an rtc
     }
 }
